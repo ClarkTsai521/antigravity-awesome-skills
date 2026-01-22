@@ -61,7 +61,7 @@ That's it! Your AI assistant now has 233 specialized skills. 🎉
 
 - 💡 **[Real-World Examples](docs/EXAMPLES.md)** - See skills in action
 - ❓ **[FAQ](FAQ.md)** - Common questions answered
-- **Skills Index Browser (Local)** - Run `scripts/start-skill-browser.bat` to launch the searchable UI at `http://localhost:8000/docs/skills-search.html`
+- **Skills Index Browser (Local)** - Run `scripts/start-skill-browser.bat` to launch the searchable UI at `http://localhost:8000/docs/skills-search.html` (click the ⓘ icon for usage paths)
 
 ---
 
