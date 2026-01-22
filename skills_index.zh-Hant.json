@@ -1,0 +1,1400 @@
+[
+  {
+    "id": "2d-games",
+    "path": "skills/game-development/2d-games",
+    "name": "2D 遊戲",
+    "description": "2D遊戲開發原理。精靈、圖塊地圖、物理、相機。"
+  },
+  {
+    "id": "3d-games",
+    "path": "skills/game-development/3d-games",
+    "name": "3D遊戲",
+    "description": "3D遊戲開發原理。渲染、著色器、物理、相機。"
+  },
+  {
+    "id": "3d-web-experience",
+    "path": "skills/3d-web-experience",
+    "name": "3D 網絡體驗",
+    "description": "“構建 Web 3D 體驗的專家 - Three.js、React Three Fiber、Spline、WebGL 和交互式 3D 場景。涵蓋產品配置器、3D 產品組合、沉浸式網站以及為 Web 體驗帶來深度。使用場合：3D 網站、Three.js、WebGL、React Three Fiber、3D 體驗。”"
+  },
+  {
+    "id": "api-fuzzing-bug-bounty",
+    "path": "skills/api-fuzzing-bug-bounty",
+    "name": "漏洞賞金 API 模糊測試",
+    "description": "當用戶要求“測試 API 安全性”、“模糊 API”、“查找 IDOR 漏洞”、“測試 REST API”、“測試 GraphQL”、“API 滲透測試”、“錯誤賞金 API 測試”或需要 API 安全評估技術指導時，應使用此技能。"
+  },
+  {
+    "id": "aws-penetration-testing",
+    "path": "skills/aws-penetration-testing",
+    "name": "AWS滲透測試",
+    "description": "當用戶要求“滲透測試 AWS”、“測試 AWS 安全性”、“枚舉 IAM”、“利用雲基礎設施”、“AWS 權限升級”、“S3 存儲桶測試”、“元數據 SSRF”、“Lambda 利用”或需要有關 Amazon Web Services 安全評估的指導時，應使用此技能。"
+  },
+  {
+    "id": "active-directory-attacks",
+    "path": "skills/active-directory-attacks",
+    "name": "活動目錄攻擊",
+    "description": "當用戶要求“攻擊 Active Directory”、“利用 AD”、“Kerberoasting”、“DCSync”、“傳遞哈希”、“BloodHound 枚舉”、“Golden Ticket”、“Silver Ticket”、“AS-REP 烘焙”、“NTLM 中繼”或需要 Windows 域滲透測試指導時，應使用此技能。"
+  },
+  {
+    "id": "broken-authentication",
+    "path": "skills/broken-authentication",
+    "name": "身份驗證測試被破壞",
+    "description": "當用戶要求“測試破壞的身份驗證漏洞”、“評估會話管理安全性”、“執行撞庫測試”、“評估密碼策略”、“測試會話固定”或“識別身份驗證繞過缺陷”時，應使用此技能。它提供了用於識別 Web 應用程序中的身份驗證和會話管理弱點的綜合技術。"
+  },
+  {
+    "id": "burp-suite-testing",
+    "path": "skills/burp-suite-testing",
+    "name": "Burp Suite Web 應用程序測試",
+    "description": "當用戶要求“攔截 HTTP 流量”、“修改 Web 請求”、“使用 Burp Suite 進行測試”、“執行 Web 漏洞掃描”、“使用 Burp Repeater 進行測試”、“分析 HTTP 歷史記錄”或“配置代理進行 Web 測試”時，應該使用此技能。它提供了使用 Burp Suite 核心功能進行 Web 應用程序安全測試的全面指南。"
+  },
+  {
+    "id": "claude-code-guide",
+    "path": "skills/claude-code-guide",
+    "name": "克勞德代碼指南",
+    "description": "有效使用克勞德代碼的大師指南。包括配置模板、提示策略“思考”關鍵字、調試技巧以及與代理交互的最佳實踐。"
+  },
+  {
+    "id": "cloud-penetration-testing",
+    "path": "skills/cloud-penetration-testing",
+    "name": "雲滲透測試",
+    "description": "當用戶要求“執行雲滲透測試”、“評估 Azure 或 AWS 或 GCP 安全性”、“枚舉雲資源”、“利用雲錯誤配置”、“測試 O365 安全性”、“從雲環境中提取機密”或“審核雲基礎設施”時，應使用此技能。它提供了跨主要雲平台的安全評估的全面技術。"
+  },
+  {
+    "id": "xss-html-injection",
+    "path": "skills/xss-html-injection",
+    "name": "跨站腳本和 HTML 注入測試",
+    "description": "當用戶要求“測試 XSS 漏洞”、“執行跨站腳本攻擊”、“識別 HTML 注入缺陷”、“利用客戶端注入漏洞”、“通過 XSS 竊取 cookie”或“繞過內容安全策略”時，應使用此技能。它提供了用於檢測、利用和理解 Web 應用程序中的 XSS 和 HTML 注入攻擊向量的全面技術。"
+  },
+  {
+    "id": "ethical-hacking-methodology",
+    "path": "skills/ethical-hacking-methodology",
+    "name": "道德黑客方法論",
+    "description": "當用戶要求“學習道德黑客攻擊”、“了解滲透測試生命週期”、“執行偵察”、“進行安全掃描”、“利用漏洞”或“編寫滲透測試報告”時，應使用此技能。它提供了全面的道德黑客方法和技術。"
+  },
+  {
+    "id": "file-path-traversal",
+    "path": "skills/file-path-traversal",
+    "name": "文件路徑遍歷測試",
+    "description": "當用戶要求“測試目錄遍歷”、“利用路徑遍歷漏洞”、“通過Web應用程序讀取任意文件”、“查找LFI漏洞”或“訪問Web根目錄之外的文件”時，應該使用此技能。它提供了全面的文件路徑遍歷攻擊和測試方法。"
+  },
+  {
+    "id": "html-injection-testing",
+    "path": "skills/html-injection-testing",
+    "name": "HTML 注入測試",
+    "description": "當用戶要求“測試 HTML 注入”、“將 HTML 注入網頁”、“執行 HTML 注入攻擊”、“破壞 Web 應用程序”或“測試內容注入漏洞”時，應使用此技能。它提供了全面的HTML注入攻擊技術和測試方法。"
+  },
+  {
+    "id": "idor-testing",
+    "path": "skills/idor-testing",
+    "name": "IDOR漏洞測試",
+    "description": "當用戶要求“測試不安全的直接對象引用”、“查找 IDOR 漏洞”、“利用損壞的訪問控制”、“枚舉用戶 ID 或對象引用”或“繞過授權訪問其他用戶的數據”時，應使用此技能。它為檢測、利用和修復 Web 應用程序中的 IDOR 漏洞提供了全面的指導。"
+  },
+  {
+    "id": "linux-privilege-escalation",
+    "path": "skills/linux-privilege-escalation",
+    "name": "Linux 權限提升",
+    "description": "當用戶要求“在 Linux 上升級權限”、“在 Linux 系統上查找 privesc 向量”、“利用 sudo 錯誤配置”、“濫用 SUID 二進製文件”、“利用 cron 作業進行 root 訪問”、“枚舉 Linux 系統進行權限升級”或“從低權限 shell 獲得 root 訪問權限”時，應使用此技能。它提供了用於識別和利用 Linux 系統上的權限升級路徑的全面技術。"
+  },
+  {
+    "id": "linux-shell-scripting",
+    "path": "skills/linux-shell-scripting",
+    "name": "Linux 生產 Shell 腳本",
+    "description": "當用戶要求“創建 bash 腳本”、“自動化 Linux 任務”、“監視系統資源”、“備份文件”、“管理用戶”或“編寫生產 shell 腳本”時，應該使用此技能。它為系統管理提供現成的 shell 腳本模板。"
+  },
+  {
+    "id": "metasploit-framework",
+    "path": "skills/metasploit-framework",
+    "name": "Metasploit框架",
+    "description": "當用戶要求“使用 Metasploit 進行滲透測試”、“使用 msfconsole 利用漏洞”、“使用 msfvenom 創建有效負載”、“執行後利用”、“使用輔助模塊進行掃描”或“開發自定義漏洞”時，應使用此技能。它為在安全評估中利用 Metasploit 框架提供了全面的指導。"
+  },
+  {
+    "id": "network-101",
+    "path": "skills/network-101",
+    "name": "網絡101",
+    "description": "當用戶要求“設置 Web 服務器”、“配置 HTTP 或 HTTPS”、“執行 SNMP 枚舉”、“配置 SMB 共享”、“測試網絡服務”或需要為滲透測試實驗室配置和測試網絡服務的指導時，應使用此技能。"
+  },
+  {
+    "id": "pentest-checklist",
+    "path": "skills/pentest-checklist",
+    "name": "滲透測試清單",
+    "description": "當用戶要求“計劃滲透測試”、“創建安全評估清單”、“準備滲透測試”、“定義滲透測試範圍”、“遵循安全測試最佳實踐”或需要滲透測試的結構化方法時，應使用此技能。"
+  },
+  {
+    "id": "pentest-commands",
+    "path": "skills/pentest-commands",
+    "name": "滲透測試命令",
+    "description": "當用戶要求“運行 pentest 命令”、“使用 nmap 掃描”、“使用 metasploit 漏洞利用”、“使用 Hydra 或 john 破解密碼”、“使用 nikto 掃描 Web 漏洞”、“枚舉網絡”或需要必要的滲透測試命令參考時，應該使用此技能。"
+  },
+  {
+    "id": "privilege-escalation-methods",
+    "path": "skills/privilege-escalation-methods",
+    "name": "權限提升方法",
+    "description": "當用戶要求“升級權限”、“獲得 root 訪問權限”、“成為管理員”、“privesc 技術”、“濫用 sudo”、“利用 SUID 二進製文件”、“Kerberoasting”、“傳遞票證”、“令牌模擬”或需要有關 Linux 或 Windows 系統的利用後權限升級的指導時，應使用此技能。"
+  },
+  {
+    "id": "red-team-tools",
+    "path": "skills/red-team-tools",
+    "name": "紅隊工具和方法",
+    "description": "當用戶要求“遵循紅隊方法”、“執行錯誤賞金狩獵”、“自動偵察”、“尋找 XSS 漏洞”、“枚舉子域”，或者需要來自頂級錯誤賞金獵人的安全研究人員技術和工具配置時，應該使用此技能。"
+  },
+  {
+    "id": "smtp-penetration-testing",
+    "path": "skills/smtp-penetration-testing",
+    "name": "SMTP滲透測試",
+    "description": "當用戶要求“執行 SMTP 滲透測試”、“枚舉電子郵件用戶”、“測試開放郵件中繼”、“抓取 SMTP 橫幅”、“暴力破解電子郵件憑據”或“評估郵件服務器安全性”時，應使用此技能。它提供了用於測試 SMTP 服務器安全性的全面技術。"
+  },
+  {
+    "id": "sql-injection-testing",
+    "path": "skills/sql-injection-testing",
+    "name": "SQL注入測試",
+    "description": "當用戶要求“測試SQL注入漏洞”、“執行SQLi攻擊”、“使用SQL注入繞過身份驗證”、“通過注入提取數據庫信息”、“檢測SQL注入缺陷”或“利用數據庫查詢漏洞”時，應該使用此技能。它提供了用於識別、利用和理解跨不同數據庫系統的 SQL 注入攻擊向量的全面技術。"
+  },
+  {
+    "id": "sqlmap-database-pentesting",
+    "path": "skills/sqlmap-database-pentesting",
+    "name": "SQLMap數據庫滲透測試",
+    "description": "當用戶要求“自動化 SQL 注入測試”、“枚舉數據庫結構”、“使用 sqlmap 提取數據庫憑據”、“從易受攻擊的數據庫轉儲表和列”或“執行自動化數據庫滲透測試”時，應使用此技能。它提供了使用 SQLMap 檢測和利用 SQL 注入漏洞的全面指南。"
+  },
+  {
+    "id": "ssh-penetration-testing",
+    "path": "skills/ssh-penetration-testing",
+    "name": "SSH滲透測試",
+    "description": "當用戶要求“滲透測試 SSH 服務”、“枚舉 SSH 配置”、“暴力破解 SSH 憑證”、“利用 SSH 漏洞”、“執行 SSH 隧道”或“審核 SSH 安全”時，應使用此技能。它提供了全面的 SSH 滲透測試方法和技術。"
+  },
+  {
+    "id": "scanning-tools",
+    "path": "skills/scanning-tools",
+    "name": "安全掃描工具",
+    "description": "當用戶要求“執行漏洞掃描”、“掃描網絡中的開放端口”、“評估 Web 應用程序安全性”、“掃描無線網絡”、“檢測惡意軟件”、“檢查雲安全性”或“評估系統合規性”時，應使用此技能。它提供了有關安全掃描工具和方法的全面指導。"
+  },
+  {
+    "id": "shodan-reconnaissance",
+    "path": "skills/shodan-reconnaissance",
+    "name": "Shodan 偵察和滲透測試",
+    "description": "當用戶要求“搜索互聯網上暴露的設備”、“執行 Shodan 偵察”、“使用 Shodan 查找易受攻擊的服務”、“使用 Shodan 掃描 IP 範圍”或“發現 IoT 設備和開放端口”時，應使用此技能。它為使用 Shodan 的搜索引擎、CLI 和 API 進行滲透測試偵察提供了全面的指導。"
+  },
+  {
+    "id": "top-web-vulnerabilities",
+    "path": "skills/top-web-vulnerabilities",
+    "name": "前 100 個 Web 漏洞參考",
+    "description": "當用戶要求“識別 Web 應用程序漏洞”、“解釋常見安全缺陷”、“了解漏洞類別”、“了解注入攻擊”、“查看訪問控制弱點”、“分析 API 安全問題”、“評估安全錯誤配置”、“了解客戶端漏洞”、“檢查移動和 IoT 安全缺陷”或“參考與 OWASP 一致的漏洞分類法”時，應使用此技能。使用此技能提供所有主要 Web 安全類別的全面漏洞定義、根本原因、影響和緩解策略。"
+  },
+  {
+    "id": "windows-privilege-escalation",
+    "path": "skills/windows-privilege-escalation",
+    "name": "Windows 權限提升",
+    "description": "當用戶要求“在 Windows 上升級權限”、“查找 Windows privesc 向量”、“枚舉 Windows 進行權限升級”、“利用 Windows 錯誤配置”或“執行利用後權限升級”時，應使用此技能。它為發現和利用 Windows 環境中的權限提升漏洞提供了全面的指導。"
+  },
+  {
+    "id": "wireshark-analysis",
+    "path": "skills/wireshark-analysis",
+    "name": "Wireshark網絡流量分析",
+    "description": "當用戶要求“使用 Wireshark 分析網絡流量”、“捕獲數據包進行故障排除”、“過濾 PCAP 文件”、“跟踪 TCP/UDP 流”、“檢測網絡異常”、“調查可疑流量”或“執行協議分析”時，應使用此技能。它提供了使用 Wireshark 進行網絡數據包捕獲、過濾和分析的全面技術。"
+  },
+  {
+    "id": "wordpress-penetration-testing",
+    "path": "skills/wordpress-penetration-testing",
+    "name": "WordPress 滲透測試",
+    "description": "當用戶要求“滲透測試 WordPress 站點”、“掃描 WordPress 漏洞”、“枚舉 WordPress 用戶、主題或插件”、“利用 WordPress 漏洞”或“使用 WPScan”時，應使用此技能。它提供了全面的 WordPress 安全評估方法。"
+  },
+  {
+    "id": "ab-test-setup",
+    "path": "skills/ab-test-setup",
+    "name": "ab 測試設置",
+    "description": "當用戶想要計劃、設計或實施 A/B 測試或實驗時。當用戶提及“A/B 測試”、“分割測試”、“實驗”、“測試此更改”、“變體副本”、“多變量測試”或“假設”時也可使用。有關跟踪實施情況，請參閱分析跟踪。"
+  },
+  {
+    "id": "address-github-comments",
+    "path": "skills/address-github-comments",
+    "name": "地址-github-評論",
+    "description": "當您需要使用 gh CLI 對開放的 GitHub Pull 請求進行審核或發布評論時使用。"
+  },
+  {
+    "id": "agent-evaluation",
+    "path": "skills/agent-evaluation",
+    "name": "代理評估",
+    "description": "“對 LLM 代理進行測試和基準測試，包括行為測試、能力評估、可靠性指標和生產監控，即使是頂級代理在實際基準測試中的成績也低於 50%。使用場合：代理測試、代理評估、基準代理、代理可靠性、測試代理。”"
+  },
+  {
+    "id": "agent-manager-skill",
+    "path": "skills/agent-manager-skill",
+    "name": "座席經理技能",
+    "description": "通過 tmux 會話（啟動/停止/監視/分配）和 cron 友好的調度來管理多個本地 CLI 代理。"
+  },
+  {
+    "id": "agent-memory-systems",
+    "path": "skills/agent-memory-systems",
+    "name": "代理記憶系統",
+    "description": "“記憶是智能代理的基石。沒有它，每次交互都從零開始。這項技能涵蓋了代理記憶的架構：短期（上下文窗口）、長期（向量存儲）以及組織它們的認知架構。關鍵見解：記憶不僅僅是存儲 - 它是檢索。如果找不到正確的事實，一百萬個存儲的事實就毫無意義。分塊、嵌入和檢索策略決定了代理是否記住或忘記。該領域是碎片”"
+  },
+  {
+    "id": "agent-tool-builder",
+    "path": "skills/agent-tool-builder",
+    "name": "代理工具構建者",
+    "description": "“工具是 AI 代理與世界交互的方式。設計良好的工具是有效代理與產生幻覺、默默失敗或花費比必要的 10 倍代幣的代理之間的區別。這項技能涵蓋從模式到錯誤處理的工具設計。JSON 模式最佳實踐、實際上有助於 LLM 的描述編寫、驗證以及正在成為 AI 工具通用語言的新興 MCP 標準。關鍵見解：工具描述比工具實現更重要”"
+  },
+  {
+    "id": "ai-agents-architect",
+    "path": "skills/ai-agents-architect",
+    "name": "人工智能代理架構師",
+    "description": "“設計和構建自主人工智能代理的專家。掌握工具使用、存儲系統、規劃策略和多代理編排。使用時間：構建代理、人工智能代理、自主代理、工具使用、函數調用。”"
+  },
+  {
+    "id": "ai-product",
+    "path": "skills/ai-product",
+    "name": "人工智能產品",
+    "description": "“每個產品都將由人工智能驅動。問題是你是否會正確構建它，或者發布一個在生產中崩潰的演示。這項技能涵蓋了 LLM 集成模式、RAG 架構、可擴展的提示工程、用戶信任的 AI UX 以及不會讓你破產的成本優化。使用時機：關鍵字、file_patterns、code_patterns。”"
+  },
+  {
+    "id": "ai-wrapper-product",
+    "path": "skills/ai-wrapper-product",
+    "name": "ai 包裝產品",
+    "description": "“專家構建將 AI API（OpenAI、Anthropic 等）包裝成人們願意付費的重點工具的產品。不僅僅是‘ChatGPT，而是不同’——用 AI 解決特定問題的產品。涵蓋產品的即時工程、成本管理、速率限制和構建可防禦的 AI 業務。使用時機：AI 包裝器、GPT 產品、AI 工具、包裝 AI、AI SaaS。”"
+  },
+  {
+    "id": "algolia-search",
+    "path": "skills/algolia-search",
+    "name": "算法搜索",
+    "description": "“Algolia 搜索實現、索引策略、React InstantSearch 和相關性調整的專家模式使用時機：添加搜索、algolia、instantsearch、搜索 api、搜索功能。”"
+  },
+  {
+    "id": "algorithmic-art",
+    "path": "skills/algorithmic-art",
+    "name": "算法藝術",
+    "description": "使用具有種子隨機性和交互式參數探索的 p5.js 創建算法藝術。當用戶請求使用代碼、生成藝術、算法藝術、流場或粒子系統創建藝術時，請使用此選項。創建原創的算法藝術而不是複制現有藝術家的作品，以避免侵犯版權。"
+  },
+  {
+    "id": "analytics-tracking",
+    "path": "skills/analytics-tracking",
+    "name": "分析跟踪",
+    "description": "當用戶想要設置、改進或審核分析跟踪和測量時。當用戶提及“設置跟踪”、“GA4”、“Google Analytics”、“轉化跟踪”、“事件跟踪”、“UTM 參數”、“標籤管理器”、“GTM”、“分析實施”或“跟踪計劃”時也可使用。對於 A/B 測試測量，請參閱 ab-test-setup。"
+  },
+  {
+    "id": "api-patterns",
+    "path": "skills/api-patterns",
+    "name": "api 模式",
+    "description": "API設計原則和決策。 REST、GraphQL 與 tRPC 選擇、響應格式、版本控制、分頁。"
+  },
+  {
+    "id": "app-builder",
+    "path": "skills/app-builder",
+    "name": "應用程序構建器",
+    "description": "主要應用程序構建協調器。根據自然語言請求創建全棧應用程序。確定項目類型，選擇技術堆棧，協調代理商。"
+  },
+  {
+    "id": "app-store-optimization",
+    "path": "skills/app-store-optimization",
+    "name": "應用商店優化",
+    "description": "完整的應用商店優化 (ASO) 工具包，用於研究、優化和跟踪 Apple App Store 和 Google Play Store 上的移動應用性能"
+  },
+  {
+    "id": "architecture",
+    "path": "skills/architecture",
+    "name": "建築學",
+    "description": "架構決策框架。需求分析、權衡評估、ADR 文檔。在做出架構決策或分析系統設計時使用。"
+  },
+  {
+    "id": "autonomous-agent-patterns",
+    "path": "skills/autonomous-agent-patterns",
+    "name": "自主代理模式",
+    "description": "“用於構建自主編碼代理的設計模式。涵蓋工具集成、權限系統、瀏覽器自動化和人機交互工作流程。在構建 AI 代理、設計工具 API、實施權限系統或創建自主編碼助手時使用。”"
+  },
+  {
+    "id": "autonomous-agents",
+    "path": "skills/autonomous-agents",
+    "name": "自主代理",
+    "description": "“自主代理是能夠獨立分解目標、計劃行動、執行工具和自我糾正的人工智能係統，無需持續的人工指導。挑戰不是讓它們有能力，而是讓它們可靠。每一個額外的決策都會增加失敗概率。這項技能涵蓋代理循環（反應、計劃-執行）、目標分解、反射模式和生產可靠性。關鍵見解：複合錯誤率會殺死自主代理。每步 95% 的成功率下降到 60% b”"
+  },
+  {
+    "id": "aws-serverless",
+    "path": "skills/aws-serverless",
+    "name": "aws 無服務器",
+    "description": "“在 AWS 上構建生產就緒的無服務器應用程序的專業技能。涵蓋 Lambda 函數、API 網關、DynamoDB、SQS/SNS 事件驅動模式、SAM/CDK 部署和冷啟動優化。”"
+  },
+  {
+    "id": "azure-functions",
+    "path": "skills/azure-functions",
+    "name": "azure 函數",
+    "description": "“Azure Functions 開發的專家模式，包括獨立的工作線程模型、Durable Functions 編排、冷啟動優化和生產模式。涵蓋 .NET、Python 和 Node.js 編程模型。使用時機：azure function、azure Functions、durable Functions、azure serverless、function app。”"
+  },
+  {
+    "id": "backend-dev-guidelines",
+    "path": "skills/backend-dev-guidelines",
+    "name": "後端開髮指南",
+    "description": "Node.js/Express/TypeScript 微服務的綜合後端開髮指南。在創建路由、控制器、服務、存儲庫、中間件或使用 Express API、Prisma 數據庫訪問、Sentry 錯誤跟踪、Zod 驗證、unifiedConfig、依賴項注入或異步模式時使用。涵蓋分層架構（路由→控制器→服務→存儲庫）、BaseController 模式、錯誤處理、性能監控、測試策略以及從遺留模式的遷移。"
+  },
+  {
+    "id": "cc-skill-backend-patterns",
+    "path": "skills/cc-skill-backend-patterns",
+    "name": "後端模式",
+    "description": "Node.js、Express 和 Next.js API 路由的後端架構模式、API 設計、數據庫優化和服務器端最佳實踐。"
+  },
+  {
+    "id": "bash-linux",
+    "path": "skills/bash-linux",
+    "name": "bash Linux",
+    "description": "Bash/Linux 終端模式。關鍵命令、管道、錯誤處理、腳本編寫。在 macOS 或 Linux 系統上工作時使用。"
+  },
+  {
+    "id": "behavioral-modes",
+    "path": "skills/behavioral-modes",
+    "name": "行為模式",
+    "description": "人工智能操作模式（集思廣益、實施、調試、審查、教學、交付、編排）。用於根據任務類型調整行為。"
+  },
+  {
+    "id": "blockrun",
+    "path": "skills/blockrun",
+    "name": "塊運行",
+    "description": "當用戶需要 Claude 缺乏的功能（圖像生成、實時 X/Twitter 數據）或明確請求外部模型（“blockrun”、“use grok”、“use gpt”、“dall-e”、“deepseek”）時使用"
+  },
+  {
+    "id": "brainstorming",
+    "path": "skills/brainstorming",
+    "name": "頭腦風暴",
+    "description": "“您必須在任何創造性工作之前使用它 - 創建功能、構建組件、添加功能或修改行為。在實施之前探索用戶意圖、要求和設計。”"
+  },
+  {
+    "id": "brand-guidelines-community",
+    "path": "skills/brand-guidelines-community",
+    "name": "品牌指南",
+    "description": "將 Anthropic 的官方品牌顏色和版式應用於任何可能受益於 Anthropic 外觀和感覺的人工製品。當品牌顏色或風格指南、視覺格式或公司設計標準適用時使用它。"
+  },
+  {
+    "id": "brand-guidelines-anthropic",
+    "path": "skills/brand-guidelines-anthropic",
+    "name": "品牌指南",
+    "description": "將 Anthropic 的官方品牌顏色和版式應用於任何可能受益於 Anthropic 外觀和感覺的人工製品。當品牌顏色或風格指南、視覺格式或公司設計標準適用時使用它。"
+  },
+  {
+    "id": "browser-automation",
+    "path": "skills/browser-automation",
+    "name": "瀏覽器自動化",
+    "description": "“瀏覽器自動化為 Web 測試、抓取和 AI 代理交互提供支持。片狀腳本和可靠系統之間的區別在於理解選擇器、等待策略和反檢測模式。這項技能涵蓋了 Playwright（推薦）和 Puppeteer，以及用於測試、抓取和代理瀏覽器控制的模式。關鍵見解：Playwright 贏得了框架之戰。除非您需要 Puppeteer 的隱形生態系統或僅使用 Chrome，否則 Playwright 是更好的選擇202\""
+  },
+  {
+    "id": "browser-extension-builder",
+    "path": "skills/browser-extension-builder",
+    "name": "瀏覽器擴展構建器",
+    "description": "“構建解決實際問題的瀏覽器擴展的專家 - Chrome、Firefox 和跨瀏覽器擴展。涵蓋擴展架構、清單 v3、內容腳本、彈出 UI、貨幣化策略和 Chrome Web Store 發布。使用場合：瀏覽器擴展、chrome 擴展、firefox 插件、擴展、清單 v3。”"
+  },
+  {
+    "id": "bullmq-specialist",
+    "path": "skills/bullmq-specialist",
+    "name": "bullmq-專家",
+    "description": "“BullMQ 專家，用於 Node.js/TypeScript 應用程序中 Redis 支持的作業隊列、後台處理和可靠的異步執行。使用場合：bullmq、bull 隊列、redis 隊列、後台作業、作業隊列。”"
+  },
+  {
+    "id": "bun-development",
+    "path": "skills/bun-development",
+    "name": "髮髻發展",
+    "description": "“使用 Bun 運行時進行現代 JavaScript/TypeScript 開發。涵蓋包管理、捆綁、測試以及從 Node.js 的遷移。在使用 Bun、優化 JS/TS 開發速度或從 Node.js 遷移到 Bun 時使用。”"
+  },
+  {
+    "id": "canvas-design",
+    "path": "skills/canvas-design",
+    "name": "畫佈設計",
+    "description": "使用設計理念在 .png 和 .pdf 文檔中創建美麗的視覺藝術。當用戶要求創建海報、藝術品、設計或其他靜態作品時，您應該使用此技能。創建原創視覺設計，切勿複制現有藝術家的作品，以避免侵犯版權。"
+  },
+  {
+    "id": "cc-skill-continuous-learning",
+    "path": "skills/cc-skill-continuous-learning",
+    "name": "cc 技能持續學習",
+    "description": "來自 everything-claude-code 的開發技巧"
+  },
+  {
+    "id": "cc-skill-project-guidelines-example",
+    "path": "skills/cc-skill-project-guidelines-example",
+    "name": "cc-skill-項目-指南-示例",
+    "description": "項目指導技能（示例）"
+  },
+  {
+    "id": "cc-skill-strategic-compact",
+    "path": "skills/cc-skill-strategic-compact",
+    "name": "cc-技能-戰略-緊湊",
+    "description": "來自 everything-claude-code 的開發技巧"
+  },
+  {
+    "id": "clean-code",
+    "path": "skills/clean-code",
+    "name": "乾淨的代碼",
+    "description": "務實的編碼標準——簡潔、直接、沒有過度工程、沒有不必要的註釋"
+  },
+  {
+    "id": "clerk-auth",
+    "path": "skills/clerk-auth",
+    "name": "職員授權",
+    "description": "“用於職員身份驗證實施、中間件、組織、Webhook 和用戶同步的專家模式 使用時機：添加身份驗證、職員身份驗證、用戶身份驗證、登錄、註冊。”"
+  },
+  {
+    "id": "cc-skill-clickhouse-io",
+    "path": "skills/cc-skill-clickhouse-io",
+    "name": "clickhouse-io",
+    "description": "ClickHouse 數據庫模式、查詢優化、分析和數據工程最佳實踐，適用於高性能分析工作負載。"
+  },
+  {
+    "id": "code-review-checklist",
+    "path": "skills/code-review-checklist",
+    "name": "代碼審查清單",
+    "description": "代碼審查指南涵蓋代碼質量、安全性和最佳實踐。"
+  },
+  {
+    "id": "cc-skill-coding-standards",
+    "path": "skills/cc-skill-coding-standards",
+    "name": "編碼標準",
+    "description": "TypeScript、JavaScript、React 和 Node.js 開發的通用編碼標準、最佳實踐和模式。"
+  },
+  {
+    "id": "competitor-alternatives",
+    "path": "skills/competitor-alternatives",
+    "name": "競爭者-替代品",
+    "description": "“當用戶想要創建競爭對手比較或替代頁面以進行 SEO 和銷售支持時。當用戶提及“替代頁面”、“對比頁面”、“競爭對手比較”、“比較頁面”、“[產品] 與 [產品]”、“[產品] 替代”或“競爭性著陸頁”時也可使用。涵蓋四種格式：單數替代、複數替代、您與競爭對手、以及競爭對手與競爭對手。強調深入研究、模塊化內容架構以及功能表之外的各種部分類型。”"
+  },
+  {
+    "id": "computer-use-agents",
+    "path": "skills/computer-use-agents",
+    "name": "計算機使用代理",
+    "description": "“構建像人類一樣與計算機交互的 AI 代理 - 查看屏幕、移動光標、單擊按鈕和輸入文本。涵蓋 Anthropic 的計算機使用、OpenAI 的 Operator/CUA 和開源替代方案。重點關注沙箱、安全性以及處理基於視覺的控制的獨特挑戰。使用場合：計算機使用、桌面自動化代理、屏幕控制 AI、基於視覺的代理、GUI 自動化。”"
+  },
+  {
+    "id": "concise-planning",
+    "path": "skills/concise-planning",
+    "name": "簡潔規劃",
+    "description": "當用戶請求編碼任務計劃時使用，以生成清晰、可操作且原子的清單。"
+  },
+  {
+    "id": "content-creator",
+    "path": "skills/content-creator",
+    "name": "內容創作者",
+    "description": "創建具有一致品牌聲音的 SEO 優化營銷內容。包括品牌聲音分析器、SEO 優化器、內容框架和社交媒體模板。在撰寫博客文章、創建社交媒體內容、分析品牌聲音、優化 SEO、規劃內容日曆時，或者當用戶提及內容創建、品牌聲音、SEO 優化、社交媒體營銷或內容策略時使用。"
+  },
+  {
+    "id": "context-window-management",
+    "path": "skills/context-window-management",
+    "name": "上下文窗口管理",
+    "description": "“管理 LLM 上下文窗口的策略，包括摘要、修剪、路由和避免上下文腐爛 使用時機：上下文窗口、令牌限制、上下文管理、上下文工程、長上下文。”"
+  },
+  {
+    "id": "conversation-memory",
+    "path": "skills/conversation-memory",
+    "name": "對話記憶",
+    "description": "“用於 LLM 對話的持久記憶系統，包括短期、長期和基於實體的記憶。使用時間：對話記憶、記住、記憶持久性、長期記憶、聊天歷史。”"
+  },
+  {
+    "id": "copy-editing",
+    "path": "skills/copy-editing",
+    "name": "文案編輯",
+    "description": "“當用戶想要編輯、審查或改進現有的營銷文案時。當用戶提到“編輯此文案”、“審閱我的文案”、“文案反饋”、“校對”、“完善此文案”、“使此文案變得更好”或“清掃文案”時也可使用。這項技能提供了一種通過多次重點傳遞來編輯營銷文案的系統方法。”"
+  },
+  {
+    "id": "copywriting",
+    "path": "skills/copywriting",
+    "name": "文案寫作",
+    "description": "當用戶想要編寫、重寫或改進任何頁面的營銷文案時——包括主頁、登陸頁面、定價頁面、功能頁面、關於頁面或產品頁面。當用戶說“為其編寫副本”、“改進此副本”、“重寫此頁面”、“營銷副本”、“標題幫助”或“CTA 副本”時也可使用。有關電子郵件副本，請參閱電子郵件序列。對於彈出副本，請參閱 popup-cro。"
+  },
+  {
+    "id": "core-components",
+    "path": "skills/core-components",
+    "name": "核心組件",
+    "description": "核心組件庫和設計系統模式。在構建 UI、使用設計令牌或使用組件庫時使用。"
+  },
+  {
+    "id": "crewai",
+    "path": "skills/crewai",
+    "name": "克魯瓦伊",
+    "description": "“CrewAI 專家 - 60% 的財富 500 強公司使用的領先的基於角色的多代理框架。涵蓋代理設計的角色和目標、任務定義、人員編排、流程類型（順序、分層、並行）、內存系統和復雜工作流程的流程。對於構建協作 AI 代理團隊至關重要。使用場合：crewai、多代理團隊、代理角色、代理團隊、基於角色的代理。”"
+  },
+  {
+    "id": "claude-d3js-skill",
+    "path": "skills/claude-d3js-skill",
+    "name": "d3 可視化",
+    "description": "使用 d3.js 創建交互式數據可視化。在創建自定義圖表、圖形、網絡圖、地理可視化或任何需要對視覺元素、過渡或交互進行細粒度控制的複雜的基於 SVG 的數據可視化時，應使用此技能。使用它來實現標準圖表庫之外的定制可視化，無論是在 React、Vue、Svelte、vanilla JavaScript 還是任何其他環境中。"
+  },
+  {
+    "id": "database-design",
+    "path": "skills/database-design",
+    "name": "數據庫設計",
+    "description": "數據庫設計原則和決策。架構設計、索引策略、ORM 選擇、無服務器數據庫。"
+  },
+  {
+    "id": "deployment-procedures",
+    "path": "skills/deployment-procedures",
+    "name": "部署程序",
+    "description": "生產部署原則和決策。安全部署工作流程、回滾策略和驗證。教的是思考，而不是腳本。"
+  },
+  {
+    "id": "discord-bot-architect",
+    "path": "skills/discord-bot-architect",
+    "name": "Discord 機器人架構師",
+    "description": "“構建生產就緒的 Discord 機器人的專業技能。涵蓋 Discord.js (JavaScript) 和 Pycord (Python)、網關意圖、斜杠命令、交互式組件、速率限制和分片。”"
+  },
+  {
+    "id": "dispatching-parallel-agents",
+    "path": "skills/dispatching-parallel-agents",
+    "name": "調度並行代理",
+    "description": "當面臨 2 個以上獨立任務且無需共享狀態或順序依賴關係即可完成時使用"
+  },
+  {
+    "id": "doc-coauthoring",
+    "path": "skills/doc-coauthoring",
+    "name": "文檔共同創作",
+    "description": "指導用戶完成共同創作文檔的結構化工作流程。當用戶想要編寫文檔、提案、技術規範、決策文檔或類似的結構化內容時使用。此工作流程可幫助用戶高效地傳輸上下文、通過迭代細化內容並驗證文檔是否適合讀者。當用戶提到編寫文檔、創建提案、起草規範或類似的文檔任務時觸發。"
+  },
+  {
+    "id": "docker-expert",
+    "path": "skills/docker-expert",
+    "name": "docker專家",
+    "description": "Docker 容器化專家，對多階段構建、鏡像優化、容器安全、Docker Compose 編排和生產部署模式有深入的了解。主動使用 Dockerfile 優化、容器問題、圖像大小問題、安全強化、網絡和編排挑戰。"
+  },
+  {
+    "id": "documentation-templates",
+    "path": "skills/documentation-templates",
+    "name": "文檔模板",
+    "description": "文檔模板和結構指南。自述文件、API 文檔、代碼註釋和 AI 友好文檔。"
+  },
+  {
+    "id": "docx-official",
+    "path": "skills/docx-official",
+    "name": "文件",
+    "description": "“全面的文檔創建、編輯和分析，支持跟踪更改、註釋、格式保存和文本提取。當 Claude 需要使用專業文檔（.docx 文件）來執行以下操作時：(1) 創建新文檔，(2) 修改或編輯內容，(3) 使用跟踪更改，(4) 添加註釋或任何其他文檔任務”"
+  },
+  {
+    "id": "email-sequence",
+    "path": "skills/email-sequence",
+    "name": "電子郵件序列",
+    "description": "當用戶想要創建或優化電子郵件序列、水滴營銷活動、自動化電子郵件流或生命週期電子郵件程序時。當用戶提及“電子郵件序列”、“點滴營銷活動”、“培育序列”、“入職電子郵件”、“歡迎序列”、“重新參與電子郵件”、“電子郵件自動化”或“生命週期電子郵件”時也可使用。對於應用程序內入門，請參閱 onboarding-cro。"
+  },
+  {
+    "id": "email-systems",
+    "path": "skills/email-systems",
+    "name": "電子郵件系統",
+    "description": "“在所有營銷渠道中，電子郵件的投資回報率最高。每花費 1 美元，投資回報率為 36 美元。然而，大多數初創公司將其視為事後諸葛亮 - 批量發送、沒有個性化、落入垃圾郵件文件夾。這項技能涵蓋有效的交易電子郵件、可轉換的營銷自動化、到達收件箱的送達率以及可擴展的基礎設施決策。使用時機：關鍵字、文件模式、代碼模式。”"
+  },
+  {
+    "id": "executing-plans",
+    "path": "skills/executing-plans",
+    "name": "執行計劃",
+    "description": "當您有書面實施計劃並在帶有審查檢查點的單獨會話中執行時使用"
+  },
+  {
+    "id": "file-organizer",
+    "path": "skills/file-organizer",
+    "name": "文件管理器",
+    "description": "通過了解上下文、查找重複項並建議更好的組織結構，智能地組織文件和文件夾。當用戶想要清理目錄、組織下載、刪除重複項或重組項目時使用。"
+  },
+  {
+    "id": "file-uploads",
+    "path": "skills/file-uploads",
+    "name": "文件上傳",
+    "description": "“處理文件上傳和雲存儲的專家。涵蓋 S3、Cloudflare R2、預簽名 URL、分段上傳和圖像優化。知道如何無阻塞地處理大文件。使用場合：文件上傳、S3、R2、預簽名 URL、分段。”"
+  },
+  {
+    "id": "finishing-a-development-branch",
+    "path": "skills/finishing-a-development-branch",
+    "name": "完成開發分支",
+    "description": "當實現完成、所有測試都通過並且您需要決定如何集成工作時使用 - 通過提供合併、PR 或清理的結構化選項來指導開發工作的完成"
+  },
+  {
+    "id": "firebase",
+    "path": "skills/firebase",
+    "name": "火力基地",
+    "description": "“Firebase 在幾分鐘內為您提供完整的後端 - 身份驗證、數據庫、存儲、功能、託管。但設置的簡便性隱藏了真正的複雜性。安全規則是您的最後一道防線，而且它們經常是錯誤的。Firestore 查詢是有限的，您在設計數據模型後才能了解這一點。此技能涵蓋 Firebase 身份驗證、Firestore、實時數據庫、雲功能、雲存儲和 Firebase 託管。關鍵見解：Firebase 針對讀取繁重、非規範化數據進行了優化。我”"
+  },
+  {
+    "id": "form-cro",
+    "path": "skills/form-cro",
+    "name": "形式-cro",
+    "description": "當用戶想要優化任何非註冊/註冊的表單時 - 包括潛在客戶捕獲表單、聯繫表單、演示請求表單、申請表、調查表或結帳表。當用戶提及“表單優化”、“潛在客戶表單轉換”、“表單摩擦”、“表單字段”、“表單完成率”或“聯繫表單”時也可使用。有關註冊/註冊表單，請參閱signup-flow-cro。對於包含表單的彈出窗口，請參閱 popup-cro。"
+  },
+  {
+    "id": "free-tool-strategy",
+    "path": "skills/free-tool-strategy",
+    "name": "免費工具策略",
+    "description": "當用戶想要出於營銷目的（潛在客戶開發、SEO 價值或品牌知名度）規劃、評估或構建免費工具時。當用戶提到“工程作為營銷”、“免費工具”、“營銷工具”、“計算器”、“生成器”、“交互式工具”、“潛在客戶生成工具”、“為潛在客戶構建工具”或“免費資源”時也可使用。這項技能連接了工程和營銷——對於創始人和技術營銷人員很有用。"
+  },
+  {
+    "id": "frontend-design",
+    "path": "skills/frontend-design",
+    "name": "前端設計",
+    "description": "創建具有高設計質量的獨特的生產級前端界面。當用戶要求構建 Web 組件、頁面、工件、海報或應用程序（示例包括網站、登陸頁面、儀表板、React 組件、HTML/CSS 佈局或設計/美化任何 Web UI 時）時，請使用此技能。生成富有創意、精美的代碼和 UI 設計，避免通用的 AI 美學。"
+  },
+  {
+    "id": "frontend-dev-guidelines",
+    "path": "skills/frontend-dev-guidelines",
+    "name": "前端開髮指南",
+    "description": "React/TypeScript 應用程序的前端開髮指南。現代模式包括 Suspense、延遲加載、useSuspenseQuery、具有功能目錄的文件組織、MUI v7 樣式、TanStack Router、性能優化和 TypeScript 最佳實踐。在創建組件、頁面、功能、獲取數據、樣式、路由或使用前端代碼時使用。"
+  },
+  {
+    "id": "cc-skill-frontend-patterns",
+    "path": "skills/cc-skill-frontend-patterns",
+    "name": "前端模式",
+    "description": "React、Next.js、狀態管理、性能優化和 UI 最佳實踐的前端開發模式。"
+  },
+  {
+    "id": "game-art",
+    "path": "skills/game-development/game-art",
+    "name": "遊戲藝術",
+    "description": "遊戲藝術原理。視覺風格選擇、資產管道、動畫工作流程。"
+  },
+  {
+    "id": "game-audio",
+    "path": "skills/game-development/game-audio",
+    "name": "遊戲音頻",
+    "description": "遊戲音頻原理。聲音設計、音樂集成、自適應音頻系統。"
+  },
+  {
+    "id": "game-design",
+    "path": "skills/game-development/game-design",
+    "name": "遊戲設計",
+    "description": "遊戲設計原則。 GDD結構、平衡、玩家心理、進程。"
+  },
+  {
+    "id": "game-development",
+    "path": "skills/game-development",
+    "name": "遊戲開發",
+    "description": "遊戲開發協調器。根據項目需求路由特定於平台的技能。"
+  },
+  {
+    "id": "gcp-cloud-run",
+    "path": "skills/gcp-cloud-run",
+    "name": "gcp 雲運行",
+    "description": "“在 GCP 上構建生產就緒的無服務器應用程序的專業技能。涵蓋 Cloud Run 服務（容器化）、Cloud Run Functions（事件驅動）、冷啟動優化以及使用 Pub/Sub 的事件驅動架構。”"
+  },
+  {
+    "id": "geo-fundamentals",
+    "path": "skills/geo-fundamentals",
+    "name": "地質基礎知識",
+    "description": "AI 搜索引擎的生成引擎優化（ChatGPT、Claude、Perplexity）。"
+  },
+  {
+    "id": "git-pushing",
+    "path": "skills/git-pushing",
+    "name": "git 推送",
+    "description": "使用傳統的提交消息暫存、提交和推送 git 更改。當用戶想要提交並推送更改、提到推送到遠程或要求保存並推送其工作時使用。當用戶說“推送更改”、“提交並推送”、“推送此”、“推送到 github”或類似的 git 工作流程請求時也會激活。"
+  },
+  {
+    "id": "github-workflow-automation",
+    "path": "skills/github-workflow-automation",
+    "name": "github-工作流程-自動化",
+    "description": "“借助 AI 輔助實現 GitHub 工作流程自動化。包括 PR 審查、問題分類、CI/CD 集成和 Git 操作。在自動化 GitHub 工作流程、設置 PR 審查自動化、創建 GitHub 操作或分類問題時使用。”"
+  },
+  {
+    "id": "graphql",
+    "path": "skills/graphql",
+    "name": "圖ql",
+    "description": "“GraphQL 為客戶提供了他們真正需要的數據——不多也不少。一個端點、類型化模式、內省。但使其強大的靈活性也使其變得危險。如果沒有適當的控制，客戶可以精心設計導致服務器癱瘓的查詢。這項技能涵蓋模式設計、解析器、用於 N+1 預防的 DataLoader、微服務聯合以及與 Apollo/urql 的客戶端集成。關鍵見解：GraphQL 是一份合約。模式是 API 文檔。請仔細設計。”"
+  },
+  {
+    "id": "hubspot-integration",
+    "path": "skills/hubspot-integration",
+    "name": "hubspot 集成",
+    "description": "“HubSpot CRM 集成的專家模式，包括 OAuth 身份驗證、CRM 對象、關聯、批量操作、Webhooks 和自定義對象。涵蓋 Node.js 和 Python SDK。使用場合：hubspot、hubspot api、hubspot crm、hubspot 集成、聯繫人 api。”"
+  },
+  {
+    "id": "i18n-localization",
+    "path": "skills/i18n-localization",
+    "name": "國際化本地化",
+    "description": "國際化和本地化模式。檢測硬編碼字符串、管理翻譯、區域設置文件、RTL 支持。"
+  },
+  {
+    "id": "inngest",
+    "path": "skills/inngest",
+    "name": "攝取",
+    "description": "“Inngest 專家，適用於無服務器優先的後台作業、事件驅動的工作流程和持久執行，無需管理隊列或工作人員。使用時機：inngest、無服務器後台作業、事件驅動的工作流程、步驟函數、持久執行。”"
+  },
+  {
+    "id": "interactive-portfolio",
+    "path": "skills/interactive-portfolio",
+    "name": "互動作品集",
+    "description": "“專家構建真正能帶來工作和客戶的作品集 - 不僅僅是展示作品，而是創造難忘的體驗。涵蓋開發者作品集、設計師作品集、創意作品集以及將訪問者轉化為機會的作品集。使用時間：作品集、個人網站、展示作品、開發者作品集、設計師作品集。”"
+  },
+  {
+    "id": "internal-comms-anthropic",
+    "path": "skills/internal-comms-anthropic",
+    "name": "內部通訊",
+    "description": "一組資源可幫助我使用我公司喜歡使用的格式編寫各種內部通信。每當被要求撰寫某種內部通信（狀態報告、領導力更新、3P 更新、公司新聞通訊、常見問題解答、事件報告、項目更新等）時，Claude 都應該使用此技能。"
+  },
+  {
+    "id": "internal-comms-community",
+    "path": "skills/internal-comms-community",
+    "name": "內部通訊",
+    "description": "一組資源可幫助我使用我公司喜歡使用的格式編寫各種內部通信。每當被要求撰寫某種內部通信（狀態報告、領導力更新、3P 更新、公司新聞通訊、常見問題解答、事件報告、項目更新等）時，Claude 都應該使用此技能。"
+  },
+  {
+    "id": "javascript-mastery",
+    "path": "skills/javascript-mastery",
+    "name": "精通 javascript",
+    "description": "“全面的 JavaScript 參考涵蓋了每個開發人員都應該了解的 33 個以上基本概念。從基元和閉包等基礎知識到異步/等待和函數式編程等高級模式。在解釋 JS 概念、調試 JavaScript 問題或教授 JavaScript 基礎知識時使用。”"
+  },
+  {
+    "id": "kaizen",
+    "path": "skills/kaizen",
+    "name": "改善",
+    "description": "持續改進、防錯和標準化指南。當用戶想要提高代碼質量、重構或討論流程改進時，請使用此技能。"
+  },
+  {
+    "id": "langfuse",
+    "path": "skills/langfuse",
+    "name": "朗福塞",
+    "description": "“Langfuse 專家 - 開源 LLM 可觀測性平台。涵蓋跟踪、提示管理、評估、數據集以及與 LangChain、LlamaIndex 和 OpenAI 的集成。對於調試、監控和改進生產中的 LLM 應用程序至關重要。使用場合：langfuse、llm 可觀測性、llm 跟踪、提示管理、llm 評估。”"
+  },
+  {
+    "id": "langgraph",
+    "path": "skills/langgraph",
+    "name": "語言圖",
+    "description": "“LangGraph 專家 - 用於構建有狀態、多參與者 AI 應用程序的生產級框架。涵蓋圖形構建、狀態管理、循環和分支、檢查點持久性、人機循環模式和 ReAct 代理模式。在 LinkedIn、Uber 和 400 多家公司的生產中使用。這是 LangChain 推薦的構建代理方法。使用場合：langgraph、langchain 代理、有狀態代理、代理圖、反應代理。”"
+  },
+  {
+    "id": "launch-strategy",
+    "path": "skills/launch-strategy",
+    "name": "啟動策略",
+    "description": "“當用戶想要計劃產品發布、功能公告或發布策略時。也可以在用戶提到“發布”、“產品搜索”、“功能發布”、“公告”、“上市”、“測試版發布”、“搶先體驗”、“候補名單”或“產品更新”時使用。這項技能涵蓋分階段發布、渠道策略和持續的發布勢頭。”"
+  },
+  {
+    "id": "lint-and-validate",
+    "path": "skills/lint-and-validate",
+    "name": "檢測並驗證",
+    "description": "自動質量控制、檢查和靜態分析程序。每次代碼修改後使用，以確保語法正確性和項目標準。觸發關鍵字：lint、格式、檢查、驗證、類型、靜態分析。"
+  },
+  {
+    "id": "llm-app-patterns",
+    "path": "skills/llm-app-patterns",
+    "name": "llm-應用程序模式",
+    "description": "“用於構建 LLM 應用程序的生產就緒模式。涵蓋 RAG 管道、代理架構、提示 IDE 和 LLMOps 監控。在設計 AI 應用程序、實施 RAG、構建代理或設置 LLM 可觀察性時使用。”"
+  },
+  {
+    "id": "loki-mode",
+    "path": "skills/loki-mode",
+    "name": "洛基模式",
+    "description": "Claude Code 的多智能體自主啟動系統。觸發“洛基模式”。在工程、QA、DevOps、安全、數據/機器學習、業務運營、營銷、人力資源和客戶成功方面協調 100 多個專業代理。將 PRD 打造為完全部署的創收產品，且零人工干預。功能 用於子代理調度的任務工具、由 3 位專業審閱者進行的並行代碼審閱、基於嚴重性的問題分類、帶死信處理的分佈式任務隊列、自動部署到雲提供商、A/B 測試、客戶反饋循環、事件響應、斷路器和自我修復。通過分佈式狀態檢查點處理速率限制並通過指數退避自動恢復。需要 --dangerously-skip-permissions 標誌。"
+  },
+  {
+    "id": "marketing-ideas",
+    "path": "skills/marketing-ideas",
+    "name": "營銷理念",
+    "description": "“當用戶需要其 SaaS 或軟件產品的營銷創意、靈感或策略時。當用戶詢問‘營銷創意’、‘增長創意’、‘如何營銷’、‘營銷策略’、‘營銷策略’、‘促銷方式’或‘增長創意’時也可使用。這項技能提供了按類別組織的 140 種經過驗證的營銷方法。”"
+  },
+  {
+    "id": "marketing-psychology",
+    "path": "skills/marketing-psychology",
+    "name": "營銷心理學",
+    "description": "“當用戶想要將心理學原理、心理模型或行為科學應用於營銷時。當用戶提到“心​​理學”、“心理模型”、“認知偏見”、“說服”、“行為科學”、“人們為什麼購買”、“決策”或“消費者行為”時也可以使用。這項技能提供了 70 多個為營銷應用而組織的心理模型。”"
+  },
+  {
+    "id": "mcp-builder",
+    "path": "skills/mcp-builder",
+    "name": "mcp 生成器",
+    "description": "創建高質量 MCP（模型上下文協議）服務器的指南，使 LLM 能夠通過精心設計的工具與外部服務交互。在構建 MCP 服務器以集成外部 API 或服務時使用，無論是使用 Python (FastMCP) 還是 Node/TypeScript (MCP SDK)。"
+  },
+  {
+    "id": "micro-saas-launcher",
+    "path": "skills/micro-saas-launcher",
+    "name": "微型 saas 啟動器",
+    "description": "“快速推出小型、專注的 SaaS 產品的專家 - 獨立黑客構建盈利軟件的方法。涵蓋創意驗證、MVP 開發、定價、發布策略以及可持續收入增長。在數周而不是數月內交付。使用時機：微型 SaaS、獨立黑客、小型 SaaS、副項目、SaaS MVP。”"
+  },
+  {
+    "id": "mobile-design",
+    "path": "skills/mobile-design",
+    "name": "移動設計",
+    "description": "iOS 和 Android 應用程序的移動優先設計思維和決策。觸摸交互、性能模式、平台約定。教導的是原則，而不是固定的價值觀。在構建 React Native、Flutter 或本機移動應用程序時使用。"
+  },
+  {
+    "id": "mobile-games",
+    "path": "skills/game-development/mobile-games",
+    "name": "手機遊戲",
+    "description": "手機遊戲開發原則。觸摸輸入、電池、性能、應用商店。"
+  },
+  {
+    "id": "moodle-external-api-development",
+    "path": "skills/moodle-external-api-development",
+    "name": "Moodle-外部-API-開發",
+    "description": "為 Moodle LMS 創建自定義外部 Web 服務 API。在實現課程管理、用戶跟踪、測驗操作或自定義插件功能的 Web 服務時使用。涵蓋參數驗證、數據庫操作、錯誤處理、服務註冊和 Moodle 編碼標準。"
+  },
+  {
+    "id": "multiplayer",
+    "path": "skills/game-development/multiplayer",
+    "name": "多人遊戲",
+    "description": "多人遊戲開發原則。架構、網絡、同步。"
+  },
+  {
+    "id": "neon-postgres",
+    "path": "skills/neon-postgres",
+    "name": "霓虹燈-postgres",
+    "description": "“Neon 無服務器 Postgres、分支、連接池和 Prisma/Drizzle 集成的專家模式適用於：neon 數據庫、無服務器 postgres、數據庫分支、neon postgres、postgres 無服務器。”"
+  },
+  {
+    "id": "nestjs-expert",
+    "path": "skills/nestjs-expert",
+    "name": "Nestjs專家",
+    "description": "Nest.js 框架專家，專門從事模塊架構、依賴注入、中間件、防護、攔截器、Jest/Supertest 測試、TypeORM/Mongoose 集成和 Passport.js 身份驗證。積極主動地解決任何 Nest.js 應用程序問題，包括架構決策、測試策略、性能優化或調試複雜的依賴項注入問題。如果專業專家更適合，我會建議切換並停止。"
+  },
+  {
+    "id": "nextjs-best-practices",
+    "path": "skills/nextjs-best-practices",
+    "name": "nextjs 最佳實踐",
+    "description": "Next.js 應用程序路由器原理。服務器組件、數據獲取、路由模式。"
+  },
+  {
+    "id": "nextjs-supabase-auth",
+    "path": "skills/nextjs-supabase-auth",
+    "name": "nextjs-supabase-auth",
+    "description": "“Supabase Auth 與 Next.js App Router 的專家集成，適用於以下情況：supabase auth next、身份驗證 next.js、登錄 supabase、auth 中間件、受保護的路由。”"
+  },
+  {
+    "id": "nodejs-best-practices",
+    "path": "skills/nodejs-best-practices",
+    "name": "Nodejs 最佳實踐",
+    "description": "Node.js 開發原則和決策。框架選擇、異步模式、安全性和架構。教的是思考，而不是模仿。"
+  },
+  {
+    "id": "notebooklm",
+    "path": "skills/notebooklm",
+    "name": "筆記型電腦",
+    "description": "使用此技能直接從 Claude Code 查詢您的 Google NotebookLM 筆記本，以獲取來自 Gemini 的基於來源、引用支持的答案。瀏覽器自動化、庫管理、持久身份驗證。通過僅文檔響應大幅減少幻覺。"
+  },
+  {
+    "id": "notion-template-business",
+    "path": "skills/notion-template-business",
+    "name": "概念模板業務",
+    "description": "“作為業務構建和銷售 Notion 模板的專家 - 不僅僅是製作模板，而是構建可持續的數字產品業務。涵蓋模板設計、定價、市場、營銷和擴大實際收入。使用時間：概念模板、銷售模板、數字產品、概念業務、gumroad。”"
+  },
+  {
+    "id": "onboarding-cro",
+    "path": "skills/onboarding-cro",
+    "name": "入職-cro",
+    "description": "當用戶想要優化註冊後引導、用戶激活、首次運行體驗或價值實現時間時。當用戶提及“入門流程”、“激活率”、“用戶激活”、“首次運行體驗”、“空狀態”、“入門清單”、“頓悟時刻”或“新用戶體驗”時也可使用。對於註冊/註冊優化，請參閱signup-flow-cro。有關正在進行的電子郵件序列，請參閱電子郵件序列。"
+  },
+  {
+    "id": "page-cro",
+    "path": "skills/page-cro",
+    "name": "頁面裁剪",
+    "description": "當用戶想要優化、改進或增加任何營銷頁面（包括主頁、登陸頁面、定價頁面、功能頁面或博客文章）上的轉化時。當用戶說“CRO”、“轉化率優化”、“此頁面沒有轉化”、“提高轉化”或“為什麼此頁面不起作用”時也可以使用。有關註冊/註冊流程，請參閱signup-flow-cro。對於註冊後激活，請參閱 onboarding-cro。對於註冊之外的表單，請參閱 form-cro。對於彈出窗口/模式，請參閱 popup-cro。"
+  },
+  {
+    "id": "paid-ads",
+    "path": "skills/paid-ads",
+    "name": "付費廣告",
+    "description": "“當用戶需要有關 Google Ads、Meta (Facebook/Instagram)、LinkedIn、Twitter/X 或其他廣告平台上的付費廣告活動的幫助時。當用戶提到“PPC”、“付費媒體”、“廣告文案”、“廣告創意”、“ROAS”、“每次轉化費用”、“廣告活動”、“重定向”或“受眾群體定位”時也可使用。這項技能涵蓋活動策略、廣告創作、受眾定位和優化。”"
+  },
+  {
+    "id": "parallel-agents",
+    "path": "skills/parallel-agents",
+    "name": "平行代理",
+    "description": "多代理編排模式。當多個獨立任務可以使用不同領域的專業知識運行時或當綜合分析需要多個視角時使用。"
+  },
+  {
+    "id": "paywall-upgrade-cro",
+    "path": "skills/paywall-upgrade-cro",
+    "name": "付費專區-升級-cro",
+    "description": "當用戶想要創建或優化應用內付費牆、升級屏幕、追加銷售模式或功能門時。當用戶提到“付費牆”、“升級屏幕”、“升級模式”、“追加銷售”、“功能門”、“免費轉換為付費”、“免費增值轉換​​”、“試用到期屏幕”、“達到限制屏幕”、“計劃升級提示”或“應用內定價”時，也可以使用。與公開定價頁面不同（請參閱 page-cro）——該技能側重於用戶已經體驗到價值的產品內升級時刻。"
+  },
+  {
+    "id": "pc-games",
+    "path": "skills/game-development/pc-games",
+    "name": "電腦遊戲",
+    "description": "PC 和控制台遊戲開發原理。引擎選擇、平台特性、優化策略。"
+  },
+  {
+    "id": "pdf-official",
+    "path": "skills/pdf-official",
+    "name": "pdf",
+    "description": "全面的 PDF 操作工具包，用於提取文本和表格、創建新的 PDF、合併/拆分文檔以及處理表單。當 Claude 需要填寫 PDF 表單或以編程方式大規模處理、生成或分析 PDF 文檔時。"
+  },
+  {
+    "id": "performance-profiling",
+    "path": "skills/performance-profiling",
+    "name": "性能分析",
+    "description": "性能分析原則。測量、分析和優化技術。"
+  },
+  {
+    "id": "personal-tool-builder",
+    "path": "skills/personal-tool-builder",
+    "name": "個人工具構建者",
+    "description": "“構建首先解決您自己的問題的自定義工具的專家。最好的產品通常從個人工具開始 - 滿足您自己的需求，為自己構建，然後發現其他人也有同樣的需求。涵蓋快速原型設計、本地優先應用程序、CLI 工具、成長為產品的腳本以及測試的藝術。使用時間：構建工具、個人工具、滿足我的需求、解決我的問題、CLI 工具。”"
+  },
+  {
+    "id": "plaid-fintech",
+    "path": "skills/plaid-fintech",
+    "name": "格子金融科技",
+    "description": "“Plaid API 集成的專家模式，包括鏈接令牌流、交易同步、身份驗證、ACH 身份驗證、餘額檢查、webhook 處理和金融科技合規性最佳實踐。使用場合：格子、銀行賬戶鏈接、銀行連接、ach、賬戶聚合。”"
+  },
+  {
+    "id": "plan-writing",
+    "path": "skills/plan-writing",
+    "name": "計劃寫作",
+    "description": "結構化任務規劃，具有明確的細分、依賴性和驗證標準。在實現功能、重構或任何多步驟工作時使用。"
+  },
+  {
+    "id": "planning-with-files",
+    "path": "skills/planning-with-files",
+    "name": "文件規劃",
+    "description": "針對複雜任務實施 Manus 風格的基於文件的規劃。創建task_plan.md、findings.md 和progress.md。在啟動複雜的多步驟任務、研究項目或任何需要超過 5 次工具調用的任務時使用。"
+  },
+  {
+    "id": "playwright-skill",
+    "path": "skills/playwright-skill",
+    "name": "劇作家技巧",
+    "description": "使用 Playwright 完成瀏覽器自動化。自動檢測開發服務器，將乾淨的測試腳本寫入/tmp。測試頁面、填寫表單、截取屏幕截圖、檢查響應式設計、驗證用戶體驗、測試登錄流程、檢查鏈接、自動執行任何瀏覽器任務。當用戶想要測試網站、自動化瀏覽器交互、驗證 Web 功能或執行任何基於瀏覽器的測試時使用。"
+  },
+  {
+    "id": "popup-cro",
+    "path": "skills/popup-cro",
+    "name": "彈出式cro",
+    "description": "當用戶想要創建或優化彈出窗口、模式、疊加層、幻燈片或橫幅以進行轉換時。當用戶提及“退出意圖”、“彈出窗口轉化”、“模式優化”、“潛在客戶捕獲彈出窗口”、“電子郵件彈出窗口”、“公告橫幅”或“疊加層”時也可使用。對於彈出窗口之外的表單，請參閱 form-cro。對於一般頁面轉換優化，請參閱 page-cro。"
+  },
+  {
+    "id": "powershell-windows",
+    "path": "skills/powershell-windows",
+    "name": "powershell-windows",
+    "description": "PowerShell Windows 模式。關鍵陷阱、運算符語法、錯誤處理。"
+  },
+  {
+    "id": "pptx-official",
+    "path": "skills/pptx-official",
+    "name": "PPTX",
+    "description": "“演示文稿創建、編輯和分析。當 Claude 需要處理演示文稿（.pptx 文件）以執行以下操作時：(1) 創建新演示文稿，(2) 修改或編輯內容，(3) 使用佈局，(4) 添加註釋或演講者備註，或任何其他演示任務”"
+  },
+  {
+    "id": "pricing-strategy",
+    "path": "skills/pricing-strategy",
+    "name": "定價策略",
+    "description": "“當用戶需要定價決策、包裝或貨幣化策略方面的幫助時。當用戶提到‘定價’、‘定價等級’、‘免費增值’、‘免費試用’、‘包裝’、‘價格上漲’、‘價值指標’、‘Van Westendorp’、‘支付意願’或‘貨幣化’時也可以使用。這項技能涵蓋定價研究、層次結構和包裝策略。”"
+  },
+  {
+    "id": "prisma-expert",
+    "path": "skills/prisma-expert",
+    "name": "棱鏡專家",
+    "description": "Prisma ORM 專家，負責模式設計、遷移、查詢優化、關係建模和數據庫操作。主動使用 Prisma 架構問題、遷移問題、查詢性能、關係設計或數據庫連接問題。"
+  },
+  {
+    "id": "product-manager-toolkit",
+    "path": "skills/product-manager-toolkit",
+    "name": "產品經理工具包",
+    "description": "面向產品經理的綜合工具包，包括 RICE 優先級、客戶訪談分析、PRD 模板、發現框架和上市策略。用於功能優先級排序、用戶研究綜合、需求文檔和產品策略開發。"
+  },
+  {
+    "id": "programmatic-seo",
+    "path": "skills/programmatic-seo",
+    "name": "程序化搜索引擎優化",
+    "description": "當用戶想要使用模板和數據大規模創建 SEO 驅動的頁面時。當用戶提及“程序化 SEO”、“模板頁面”、“大規模頁面”、“目錄頁面”、“位置頁面”、“[關鍵字] + [城市] 頁面”、“比較頁面”、“集成頁面”或“為 SEO 構建多個頁面”時也可使用。要審核現有 SEO 問題，請參閱 seo-audit。"
+  },
+  {
+    "id": "prompt-caching",
+    "path": "skills/prompt-caching",
+    "name": "提示緩存",
+    "description": "“LLM 提示的緩存策略包括人擇提示緩存、響應緩存和 CAG（緩存增強生成）。使用時間：提示緩存、緩存提示、響應緩存、cag、緩存增強。”"
+  },
+  {
+    "id": "prompt-engineer",
+    "path": "skills/prompt-engineer",
+    "name": "提示工程師",
+    "description": "“為 LLM 支持的應用程序設計有效提示的專家。掌握提示結構、上下文管理、輸出格式和提示評估。使用場合：提示工程、系統提示、小樣本、思維鏈、提示設計。”"
+  },
+  {
+    "id": "prompt-engineering",
+    "path": "skills/prompt-engineering",
+    "name": "即時工程",
+    "description": "有關即時工程模式、最佳實踐和優化技術的專家指南。當用戶想要改進提示、學習提示策略或調試代理行為時使用。"
+  },
+  {
+    "id": "prompt-library",
+    "path": "skills/prompt-library",
+    "name": "提示庫",
+    "description": "“針對各種用例的高質量提示的精選集合。包括基於角色的提示、特定於任務的模板和提示細化技術。當用戶需要提示模板、角色扮演提示或即用型提示示例來進行編碼、寫作、分析或創意任務時使用。”"
+  },
+  {
+    "id": "python-patterns",
+    "path": "skills/python-patterns",
+    "name": "python 模式",
+    "description": "Python開發原理和決策。框架選擇、異步模式、類型提示、項目結構。教的是思考，而不是模仿。"
+  },
+  {
+    "id": "rag-engineer",
+    "path": "skills/rag-engineer",
+    "name": "抹布工程師",
+    "description": "“構建檢索增強生成系統的專家。精通 LLM 應用程序的嵌入模型、向量數據庫、分塊策略和檢索優化。使用場合：構建 RAG、向量搜索、嵌入、語義搜索、文檔檢索。”"
+  },
+  {
+    "id": "rag-implementation",
+    "path": "skills/rag-implementation",
+    "name": "rag 實現",
+    "description": "“檢索增強生成模式，包括分塊、嵌入、向量存儲和檢索優化。使用場合：碎布、檢索增強、向量搜索、嵌入、語義搜索。”"
+  },
+  {
+    "id": "react-patterns",
+    "path": "skills/react-patterns",
+    "name": "反應模式",
+    "description": "現代 React 模式和原則。 Hooks、組合、性能、TypeScript 最佳實踐。"
+  },
+  {
+    "id": "react-ui-patterns",
+    "path": "skills/react-ui-patterns",
+    "name": "反應 ui 模式",
+    "description": "用於加載狀態、錯誤處理和數據獲取的現代 React UI 模式。在構建 UI 組件、處理異步數據或管理 UI 狀態時使用。"
+  },
+  {
+    "id": "receiving-code-review",
+    "path": "skills/receiving-code-review",
+    "name": "接收代碼審查",
+    "description": "在收到代碼審查反饋時、在實施建議之前使用，特別是當反饋似乎不清楚或技術上有問題時 - 需要技術嚴謹和驗證，而不是執行協議或盲目實施"
+  },
+  {
+    "id": "red-team-tactics",
+    "path": "skills/red-team-tactics",
+    "name": "紅隊戰術",
+    "description": "紅隊戰術原則基於 MITRE ATT&CK。攻擊階段、檢測規避、報告。"
+  },
+  {
+    "id": "referral-program",
+    "path": "skills/referral-program",
+    "name": "推薦計劃",
+    "description": "“當用戶想要創建、優化或分析推薦計劃、聯盟計劃或口碑策略時。當用戶提到“推薦”、“聯盟”、“大使”、“口碑”、“病毒循環”、“推薦朋友”或“合作夥伴計劃”時也可使用。這項技能涵蓋項目設計、激勵結構和增長優化。”"
+  },
+  {
+    "id": "remotion-best-practices",
+    "path": "skills/remotion-best-practices",
+    "name": "遠程最佳實踐",
+    "description": "Remotion 的最佳實踐 - React 中的視頻創建"
+  },
+  {
+    "id": "requesting-code-review",
+    "path": "skills/requesting-code-review",
+    "name": "請求代碼審查",
+    "description": "在完成任務、實現主要功能時或在合併之前使用以驗證工作是否滿足要求"
+  },
+  {
+    "id": "research-engineer",
+    "path": "skills/research-engineer",
+    "name": "研究工程師",
+    "description": "“一位毫不妥協的學術研究工程師。以絕對的科學嚴謹、客觀的批評和零天賦進行操作。專注於理論正確性、形式驗證和任何所需技術的最佳實施。”"
+  },
+  {
+    "id": "salesforce-development",
+    "path": "skills/salesforce-development",
+    "name": "銷售隊伍發展",
+    "description": "“Salesforce 平台開發的專家模式，包括 Lightning Web 組件 (LWC)、Apex 觸發器和類、REST/批量 API、連接的應用程序以及帶有暫存組織和第二代包 (2GP) 的 Salesforce DX。使用場合：salesforce、sfdc、apex、lwc、lightning web 組件。”"
+  },
+  {
+    "id": "schema-markup",
+    "path": "skills/schema-markup",
+    "name": "模式標記",
+    "description": "當用戶想要在其站點上添加、修復或優化架構標記和結構化數據時。當用戶提及“架構標記”、“結構化數據”、“JSON-LD”、“豐富片段”、“schema.org”、“常見問題解答架構”、“產品架構”、“評論架構”或“麵包屑架構”時也可使用。對於更廣泛的 SEO 問題，請參閱 seo-audit。"
+  },
+  {
+    "id": "scroll-experience",
+    "path": "skills/scroll-experience",
+    "name": "滾動體驗",
+    "description": "“構建沉浸式滾動驅動體驗的專家 - 視差敘事、滾動動畫、交互式敘事和電影式網絡體驗。例如《紐約時報》互動、Apple 產品頁面和屢獲殊榮的網絡體驗。讓網站感覺像體驗，而不僅僅是頁面。使用場合：滾動動畫、視差、滾動式敘事、互動故事、電影式網站。”"
+  },
+  {
+    "id": "cc-skill-security-review",
+    "path": "skills/cc-skill-security-review",
+    "name": "安全審查",
+    "description": "在添加身份驗證、處理用戶輸入、使用機密、創建 API 端點或實現支付/敏感功能時使用此技能。提供全面的安全檢查表和模式。"
+  },
+  {
+    "id": "segment-cdp",
+    "path": "skills/segment-cdp",
+    "name": "段-CDP",
+    "description": "“細分客戶數據平台的專家模式，包括 Analytics.js、服務器端跟踪、協議跟踪計劃、身份解析、目標配置和數據治理最佳實踐。使用時間：細分、analytics.js、客戶數據平台、cdp、跟踪計劃。”"
+  },
+  {
+    "id": "senior-architect",
+    "path": "skills/senior-architect",
+    "name": "高級建築師",
+    "description": "全面的軟件架構技能，可使用 ReactJS、NextJS、NodeJS、Express、React Native、Swift、Kotlin、Flutter、Postgres、GraphQL、Go、Python 設計可擴展、可維護的系統。包括架構圖生成、系統設計模式、技術堆棧決策框架和依賴性分析。在設計系統架構、制定技術決策、創建架構圖、評估權衡或定義集成模式時使用。"
+  },
+  {
+    "id": "senior-fullstack",
+    "path": "skills/senior-fullstack",
+    "name": "高級全棧",
+    "description": "全面的全棧開發技能，可使用 React、Next.js、Node.js、GraphQL 和 PostgreSQL 構建完整的 Web 應用程序。包括項目腳手架、代碼質量分析、架構模式和完整的技術堆棧指南。在構建新項目、分析代碼質量、實施設計模式或設置開發工作流程時使用。"
+  },
+  {
+    "id": "seo-audit",
+    "path": "skills/seo-audit",
+    "name": "SEO審核",
+    "description": "當用戶想要審核、審查或診斷其網站上的 SEO 問題時。當用戶提到“SEO 審核”、“技術 SEO”、“為什麼我沒有排名”、“SEO 問題”、“頁面 SEO”、“元標籤審查”或“SEO 健康檢查”時也可以使用。要大規模構建頁面以定位關鍵字，請參閱programmatic-seo。要添加結構化數據，請參閱架構標記。"
+  },
+  {
+    "id": "seo-fundamentals",
+    "path": "skills/seo-fundamentals",
+    "name": "SEO基礎知識",
+    "description": "SEO 基礎知識、E-E-A-T、Core Web Vitals 和 Google 算法原理。"
+  },
+  {
+    "id": "server-management",
+    "path": "skills/server-management",
+    "name": "服務器管理",
+    "description": "服務器管理原則和決策。流程管理、監控策略和擴展決策。教的是思考，而不是命令。"
+  },
+  {
+    "id": "shopify-apps",
+    "path": "skills/shopify-apps",
+    "name": "Shopify 應用程序",
+    "description": "“Shopify 應用程序開發的專家模式，包括 Remix/React Router 應用程序、帶有 App Bridge 的嵌入式應用程序、webhook 處理、GraphQL 管理 API、Polaris 組件、計費和應用程序擴展。使用場合：shopify 應用程序、shopify、嵌入式應用程序、polaris、應用程序橋接器。”"
+  },
+  {
+    "id": "shopify-development",
+    "path": "skills/shopify-development",
+    "name": "Shopify 開發",
+    "description": null
+  },
+  {
+    "id": "signup-flow-cro",
+    "path": "skills/signup-flow-cro",
+    "name": "註冊流程 cro",
+    "description": "當用戶想要優化註冊、註冊、帳戶創建或試用激活流程時。當用戶提到“註冊轉化”、“註冊摩擦”、“註冊表單優化”、“免費試用註冊”、“減少註冊流失”或“帳戶創建流程”時也可以使用。有關註冊後的入職培訓，請參閱 onboarding-cro。對於潛在客戶捕獲表單（不是帳戶創建），請參閱 form-cro。"
+  },
+  {
+    "id": "skill-creator",
+    "path": "skills/skill-creator",
+    "name": "技能創造者",
+    "description": "創建有效技能的指南。當用戶想要創建新技能（或更新現有技能）以通過專業知識、工作流程或工具集成擴展 Claude 的功能時，應使用此技能。"
+  },
+  {
+    "id": "skill-developer",
+    "path": "skills/skill-developer",
+    "name": "技能開發者",
+    "description": "遵循 Anthropic 最佳實踐創建和管理 Claude Code 技能。在創建新技能、修改 Skill-rules.json、了解觸發模式、使用掛鉤、調試技能激活或實施漸進式披露時使用。涵蓋技能結構、YAML frontmatter、觸發器類型（關鍵字、意圖模式、文件路徑、內容模式）、執行級別（阻止、建議、警告）、掛鉤機制（UserPromptSubmit、PreToolUse）、會話跟踪和 500 行規則。"
+  },
+  {
+    "id": "slack-bot-builder",
+    "path": "skills/slack-bot-builder",
+    "name": "鬆弛機器人構建器",
+    "description": "“使用 Bolt 框架跨 Python、JavaScript 和 Java 構建 Slack 應用程序。涵蓋用於豐富 UI、交互式組件、slash 命令、事件處理、OAuth 安裝流程和 Workflow Builder 集成的 Block Kit。重點關注可用於生產的 Slack 應用程序的最佳實踐。使用時機：slack bot、slack 應用程序、bolt 框架、block kit、slash 命令。”"
+  },
+  {
+    "id": "slack-gif-creator",
+    "path": "skills/slack-gif-creator",
+    "name": "鬆弛 gif 創建者",
+    "description": "創建針對 Slack 優化的動畫 GIF 的知識和實用程序。提供約束、驗證工具和動畫概念。當用戶請求 Slack 的動畫 GIF 時使用，例如“為我製作一張 X 為 Slack 做 Y 的 GIF”。"
+  },
+  {
+    "id": "social-content",
+    "path": "skills/social-content",
+    "name": "社交內容",
+    "description": "“當用戶需要幫助為 LinkedIn、Twitter/X、Instagram、TikTok、Facebook 或其他平台創建、安排或優化社交媒體內容時。當用戶提到“LinkedIn 帖子”、“Twitter 線程”、“社交媒體”、“內容日曆”、“社交安排”、“參與”或“病毒內容”時也可使用。這項技能涵蓋內容創建、重新利用和特定於平台的策略。”"
+  },
+  {
+    "id": "software-architecture",
+    "path": "skills/software-architecture",
+    "name": "軟件架構",
+    "description": "以質量為中心的軟件架構指南。當用戶想要編寫代碼、設計架構、分析代碼時，在任何與軟件開發相關的情況下，都應該使用這項技能。"
+  },
+  {
+    "id": "stripe-integration",
+    "path": "skills/stripe-integration",
+    "name": "條帶集成",
+    "description": "“從第一天開始就獲得報酬。付款、訂閱、計費門戶、webhooks、計量計費、Stripe Connect。正確實施 Stripe 的完整指南，包括凌晨 3 點讓您煩惱的所有邊緣情況。這不僅僅是 API 調用 - 它是完整的支付系統：處理故障、管理訂閱、處理催款和保持收入流動。使用時間：stripe、付款、訂閱、計費、結帳。”"
+  },
+  {
+    "id": "subagent-driven-development",
+    "path": "skills/subagent-driven-development",
+    "name": "子代理驅動開發",
+    "description": "在當前會話中執行具有獨立任務的實施計劃時使用"
+  },
+  {
+    "id": "systematic-debugging",
+    "path": "skills/systematic-debugging",
+    "name": "系統調試",
+    "description": "在提出修復建議之前遇到任何錯誤、測試失敗或意外行為時使用"
+  },
+  {
+    "id": "tailwind-patterns",
+    "path": "skills/tailwind-patterns",
+    "name": "順風模式",
+    "description": "Tailwind CSS v4 原理。 CSS 優先配置、容器查詢、現代模式、設計令牌架構。"
+  },
+  {
+    "id": "tdd-workflow",
+    "path": "skills/tdd-workflow",
+    "name": "TDD工作流程",
+    "description": "測試驅動開發工作流程原則。紅-綠-重構循環。"
+  },
+  {
+    "id": "telegram-bot-builder",
+    "path": "skills/telegram-bot-builder",
+    "name": "電報機器人構建器",
+    "description": "“構建解決實際問題的 Telegram 機器人的專家 - 從簡單的自動化到復雜的人工智能機器人。涵蓋機器人架構、Telegram Bot API、用戶體驗、貨幣化策略以及將機器人擴展到數千名用戶。使用時間：telegram 機器人、bot api、telegram 自動化、聊天機器人 telegram、tg bot。”"
+  },
+  {
+    "id": "telegram-mini-app",
+    "path": "skills/telegram-mini-app",
+    "name": "電報迷你應用程序",
+    "description": "“構建 Telegram 迷你應用程序 (TWA) 的專家 - 在 Telegram 內運行並具有類似原生體驗的 Web 應用程序。涵蓋 TON 生態系統、Telegram Web 應用程序 API、支付、用戶身份驗證以及構建可盈利的病毒式迷你應用程序。使用場合：telegram 迷你應用程序、TWA、telegram Web 應用程序、TON 應用程序、迷你應用程序。”"
+  },
+  {
+    "id": "templates",
+    "path": "skills/app-builder/templates",
+    "name": "模板",
+    "description": "新應用程序的項目腳手架模板。從頭開始創建新項目時使用。包含 12 個適用於各種技術堆棧的模板。"
+  },
+  {
+    "id": "test-driven-development",
+    "path": "skills/test-driven-development",
+    "name": "測試驅動開發",
+    "description": "在編寫實現代碼之前實現任何功能或錯誤修復時使用"
+  },
+  {
+    "id": "test-fixing",
+    "path": "skills/test-fixing",
+    "name": "測試修復",
+    "description": "運行測試並使用智能錯誤分組系統地修復所有失敗的測試。當用戶要求修復失敗的測試、提及測試失敗、運行測試套件並發生故障或請求使測試通過時使用。"
+  },
+  {
+    "id": "testing-patterns",
+    "path": "skills/testing-patterns",
+    "name": "測試模式",
+    "description": "玩笑測試模式、工廠函數、模擬策略和 TDD 工作流程。在編寫單元測試、創建測試工廠或遵循 TDD 紅綠重構週期時使用。"
+  },
+  {
+    "id": "theme-factory",
+    "path": "skills/theme-factory",
+    "name": "主題工廠",
+    "description": "用於為具有主題的工件設計樣式的工具包。這些工件可以是幻燈片、文檔、報告、HTML 登錄頁面等。有 10 個帶有顏色/字體的預設主題，您可以將它們應用於已創建的任何工件，或者可以即時生成新主題。"
+  },
+  {
+    "id": "trigger-dev",
+    "path": "skills/trigger-dev",
+    "name": "觸發開發",
+    "description": "“Trigger.dev 是後台作業、AI 工作流程和可靠的異步執行方面的專家，具有出色的開發人員體驗和 TypeScript 優先的設計。使用時機：trigger.dev、trigger dev、後台任務、ai 後台作業、長時間運行的任務。”"
+  },
+  {
+    "id": "twilio-communications",
+    "path": "skills/twilio-communications",
+    "name": "twilio-通訊",
+    "description": "“使用 Twilio 構建通信功能：短信、語音通話、WhatsApp Business API 和用戶驗證 (2FA)。涵蓋從簡單通知到復雜 IVR 系統和多通道身份驗證的全部範圍。重點關注合規性、速率限制和錯誤處理。使用場合：twilio、發送短信、短信、語音通話、電話驗證。”"
+  },
+  {
+    "id": "typescript-expert",
+    "path": "skills/typescript-expert",
+    "name": "打字稿專家",
+    "description": null
+  },
+  {
+    "id": "ui-ux-pro-max",
+    "path": "skills/ui-ux-pro-max",
+    "name": "ui-ux-pro-max",
+    "description": "“UI/UX 設計智能。50 種樣式、21 個調色板、50 種字體配對、20 個圖表、9 個堆棧（React、Next.js、Vue、Svelte、SwiftUI、React Native、Flutter、Tailwind、shadcn/ui）。操作：規劃、構建、創建、設計、實施、審查、修復、改進、優化、增強、重構、檢查 UI/UX 代碼。項目：網站、登陸頁面、儀表板、管理面板、電子商務、SaaS、投資組合、博客、移動應用程序、.html、.tsx、.vue、.svelte。 元素：按鈕、模態、導航欄、側邊欄、卡片、表格、表單、圖表。風格：玻璃形態、粘土形態、極簡主義、野獸派、同構主義、便當網格、深色模式、響應式、擬物化、平面設計。間距、懸停、陰影、漸變 集成：shadcn/ui MCP 用於組件搜索和示例。”"
+  },
+  {
+    "id": "upstash-qstash",
+    "path": "skills/upstash-qstash",
+    "name": "upstash-qstash",
+    "description": "“Upstash QStash 專家，用於無服務器消息隊列、計劃作業和可靠的基於 HTTP 的任務交付，無需管理基礎設施。使用場合：qstash、upstash 隊列、無服務器 cron、計劃 http、無服務器消息隊列。”"
+  },
+  {
+    "id": "using-git-worktrees",
+    "path": "skills/using-git-worktrees",
+    "name": "使用 git-worktrees",
+    "description": "在開始需要與當前工作空間隔離的功能工作時或在執行實施計劃之前使用 - 通過智能目錄選擇和安全驗證創建隔離的 git 工作樹"
+  },
+  {
+    "id": "using-superpowers",
+    "path": "skills/using-superpowers",
+    "name": "使用超能力",
+    "description": "開始任何對話時使用 - 確定如何查找和使用技能，要求在任何響應（包括澄清問題）之前調用技能工具"
+  },
+  {
+    "id": "vercel-deployment",
+    "path": "skills/vercel-deployment",
+    "name": "vercel-部署",
+    "description": "“使用 Next.js 部署到 Vercel 的專業知識 用途：vercel、部署、部署、託管、生產。”"
+  },
+  {
+    "id": "react-best-practices",
+    "path": "skills/react-best-practices",
+    "name": "vercel-react-最佳實踐",
+    "description": "Vercel Engineering 的 React 和 Next.js 性能優化指南。在編寫、審查或重構 React/Next.js 代碼時應使用此技能，以確保最佳性能模式。觸發涉及 React 組件、Next.js 頁面、數據獲取、捆綁優化或性能改進的任務。"
+  },
+  {
+    "id": "verification-before-completion",
+    "path": "skills/verification-before-completion",
+    "name": "完成前驗證",
+    "description": "在提交或創建 PR 之前，即將聲明工作已完成、修復或通過時使用 - 需要在做出任何成功聲明之前運行驗證命令並確認輸出；證據總是先於斷言"
+  },
+  {
+    "id": "viral-generator-builder",
+    "path": "skills/viral-generator-builder",
+    "name": "病毒生成器構建器",
+    "description": "“專家構建病毒式傳播的可共享生成器工具 - 姓名生成器、測驗製作器、頭像創建器、性格測試和計算器工具。涵蓋共享心理學、病毒式傳播機制以及構建人們無法抗拒與朋友分享的工具。使用場合：生成器工具、測驗製作器、姓名生成器、頭像生成器、病毒式工具。”"
+  },
+  {
+    "id": "voice-agents",
+    "path": "skills/voice-agents",
+    "name": "語音代理",
+    "description": "“語音代理代表了人工智能交互的前沿——人類與人工智能係統自然地說話。挑戰不僅僅在於語音識別和合成，還在於在處理中斷、背景噪音和情緒細微差別的同時實現延遲低於 800 毫秒的自然對話流。這項技能涵蓋兩種架構：語音到語音（OpenAI Realtime API，最低延遲，最自然）和管道（STT→LLM→TTS，更多控制，更易於調試）。關鍵見解：延遲是限制。胡”"
+  },
+  {
+    "id": "voice-ai-development",
+    "path": "skills/voice-ai-development",
+    "name": "語音人工智能開發",
+    "description": "“構建語音 AI 應用程序的專家 - 從實時語音代理到支持語音的應用程序。涵蓋 OpenAI Realtime API、用於語音代理的 Vapi、用於轉錄的 Deepgram、用於合成的 ElevenLabs、用於實時基礎設施的 LiveKit 和 WebRTC 基礎知識。了解如何構建低延遲、可用於生產的語音體驗。使用場合：語音 AI、語音代理、語音轉文本、文本轉語音、實時語音。”"
+  },
+  {
+    "id": "vr-ar",
+    "path": "skills/game-development/vr-ar",
+    "name": "虛擬現實",
+    "description": "VR/AR開發原理。舒適性、交互性、性能要求。"
+  },
+  {
+    "id": "vulnerability-scanner",
+    "path": "skills/vulnerability-scanner",
+    "name": "漏洞掃描器",
+    "description": "先進的漏洞分析原理。 OWASP 2025，供應鏈安全，攻擊面映射，風險優先級。"
+  },
+  {
+    "id": "web-artifacts-builder",
+    "path": "skills/web-artifacts-builder",
+    "name": "網絡工件構建器",
+    "description": "使用現代前端 Web 技術（React、Tailwind CSS、shadcn/ui）創建精緻的多組件 claude.ai HTML 工件的工具套件。用於需要狀態管理、路由或 shadcn/ui 組件的複雜工件 - 不適用於簡單的單文件 HTML/JSX 工件。"
+  },
+  {
+    "id": "web-design-guidelines",
+    "path": "skills/web-design-guidelines",
+    "name": "網頁設計指南",
+    "description": "檢查 UI 代碼是否符合 Web 界面指南。當被要求“檢查我的 UI”、“檢查可訪問性”、“審核設計”、“檢查 UX”或“根據最佳實踐檢查我的網站”時使用。"
+  },
+  {
+    "id": "web-games",
+    "path": "skills/game-development/web-games",
+    "name": "網頁遊戲",
+    "description": "網頁瀏覽器遊戲開發原理。框架選擇、WebGPU、優化、PWA。"
+  },
+  {
+    "id": "webapp-testing",
+    "path": "skills/webapp-testing",
+    "name": "網絡應用程序測試",
+    "description": "使用 Playwright 與本地 Web 應用程序交互並測試本地 Web 應用程序的工具包。支持驗證前端功能、調試 UI 行為、捕獲瀏覽器屏幕截圖以及查看瀏覽器日誌。"
+  },
+  {
+    "id": "workflow-automation",
+    "path": "skills/workflow-automation",
+    "name": "工作流程自動化",
+    "description": "“工作流程自動化是讓 AI 代理變得可靠的基礎設施。如果沒有持久的執行，10 步支付流程中的網絡故障意味著金錢損失和憤怒的客戶。有了它，工作流程可以從中斷的地方完全恢復。這項技能涵蓋了將脆弱的腳本轉變為生產級自動化的平台（n8n、Temporal、Inngest）和模式（順序、並行、orchestrator-worker）。關鍵見解：平台做出不同的權衡。n8n 針對可訪問性進行了優化”"
+  },
+  {
+    "id": "writing-plans",
+    "path": "skills/writing-plans",
+    "name": "寫作計劃",
+    "description": "當您在接觸代碼之前對多步驟任務有規範或要求時使用"
+  },
+  {
+    "id": "writing-skills",
+    "path": "skills/writing-skills",
+    "name": "寫作技巧",
+    "description": "在創建新技能、編輯現有技能或在部署之前驗證技能是否有效時使用"
+  },
+  {
+    "id": "xlsx-official",
+    "path": "skills/xlsx-official",
+    "name": "XLSX",
+    "description": "“全面的電子表格創建、編輯和分析，支持公式、格式設置、數據分析和可視化。當 Claude 需要使用電子表格（.xlsx、.xlsm、.csv、.tsv 等）來執行以下操作時：(1) 使用公式和格式創建新電子表格，(2) 讀取或分析數據，(3) 修改現有電子表格，同時保留公式，(4) 電子表格中的數據分析和可視化，或 (5) 重新計算公式”"
+  },
+  {
+    "id": "zapier-make-patterns",
+    "path": "skills/zapier-make-patterns",
+    "name": "zapier 製作模式",
+    "description": "“無代碼自動化使工作流程構建民主化。Zapier 和 Make（以前稱為 Integromat）讓非開發人員無需編寫代碼即可實現業務流程自動化。但無代碼並不意味著沒有復雜性 - 這些平台有自己的模式、陷阱和斷點。這項技能涵蓋何時使用哪個平台、如何構建可靠的自動化以及何時升級到基於代碼的解決方案。主要見解：Zapier 優化簡單性和集成（7000 多個應用程序），Make 優化功能”"
+  }
+]

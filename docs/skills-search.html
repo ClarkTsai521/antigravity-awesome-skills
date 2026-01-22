@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skills Index Browser</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap");
+
+      :root {
+        --ink: #101418;
+        --ink-soft: #3b424a;
+        --paper: #f7f2ea;
+        --accent: #d04f2f;
+        --accent-2: #2b7a78;
+        --card: #ffffff;
+        --glow: rgba(208, 79, 47, 0.2);
+        --shadow: 0 20px 50px rgba(16, 20, 24, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Space Grotesk", system-ui, sans-serif;
+        color: var(--ink);
+        background: radial-gradient(circle at 20% 20%, #fde4d4 0%, rgba(253, 228, 212, 0.2) 45%, transparent 70%),
+          radial-gradient(circle at 80% 10%, #d7f0ef 0%, rgba(215, 240, 239, 0.25) 50%, transparent 75%),
+          linear-gradient(140deg, #f7f2ea 0%, #f3efe6 60%, #f0ebe2 100%);
+        min-height: 100vh;
+      }
+
+      .page {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 48px 24px 80px;
+        position: relative;
+      }
+
+      .hero {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: minmax(0, 1fr);
+        margin-bottom: 32px;
+      }
+
+      .hero h1 {
+        font-family: "Fraunces", serif;
+        font-size: clamp(2.2rem, 4vw, 3.4rem);
+        margin: 0;
+        letter-spacing: -0.02em;
+      }
+
+      .hero p {
+        margin: 0;
+        color: var(--ink-soft);
+        font-size: 1.05rem;
+        max-width: 720px;
+      }
+
+      .controls {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        background: var(--card);
+        padding: 18px;
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        border: 1px solid rgba(16, 20, 24, 0.06);
+      }
+
+      label {
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 12px 14px;
+        border-radius: 12px;
+        border: 1px solid rgba(16, 20, 24, 0.1);
+        font-size: 1rem;
+        font-family: inherit;
+        background: #fff;
+        color: var(--ink);
+        outline: none;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      input:focus,
+      select:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--glow);
+      }
+
+      .stats {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin: 20px 0 8px;
+        color: var(--ink-soft);
+      }
+
+      .stats strong {
+        color: var(--ink);
+      }
+
+      .grid {
+        display: grid;
+        gap: 18px;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      }
+
+      .card {
+        background: var(--card);
+        border-radius: 18px;
+        padding: 18px;
+        box-shadow: var(--shadow);
+        border: 1px solid rgba(16, 20, 24, 0.06);
+        position: relative;
+        overflow: hidden;
+        min-height: 170px;
+        animation: rise 0.4s ease both;
+      }
+
+      .card::after {
+        content: "";
+        position: absolute;
+        inset: auto -40% -60% auto;
+        width: 140px;
+        height: 140px;
+        background: radial-gradient(circle, rgba(43, 122, 120, 0.25), transparent 70%);
+        transform: rotate(18deg);
+      }
+
+      .card h3 {
+        margin: 0 0 8px;
+        font-size: 1.15rem;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+
+      .pill {
+        padding: 4px 10px;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        background: rgba(43, 122, 120, 0.15);
+        color: #1e5756;
+      }
+
+      .pill.alt {
+        background: rgba(208, 79, 47, 0.14);
+        color: #9b3720;
+      }
+
+      .desc {
+        color: var(--ink-soft);
+        font-size: 0.95rem;
+        margin: 0 0 14px;
+        line-height: 1.45;
+      }
+
+      .actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+
+      .actions button {
+        border: none;
+        background: var(--ink);
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: transform 0.2s ease, background 0.2s ease;
+      }
+
+      .actions button:hover {
+        background: var(--accent);
+        transform: translateY(-1px);
+      }
+
+      .actions a {
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 0.85rem;
+      }
+
+      .path {
+        font-size: 0.8rem;
+        color: var(--ink-soft);
+        background: rgba(16, 20, 24, 0.05);
+        padding: 4px 8px;
+        border-radius: 8px;
+        font-family: "Space Grotesk", system-ui, sans-serif;
+      }
+
+      .status {
+        margin-top: 18px;
+        color: var(--ink-soft);
+        font-size: 0.95rem;
+      }
+
+      .status.error {
+        color: #a63a28;
+        background: rgba(208, 79, 47, 0.12);
+        padding: 10px 12px;
+        border-radius: 10px;
+      }
+
+      @keyframes rise {
+        from {
+          transform: translateY(12px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .page {
+          padding: 36px 18px 64px;
+        }
+
+        .controls {
+          padding: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <h1>Skills Index Explorer</h1>
+        <p>從 <code>skills_index.json</code> 即時載入，支援搜尋與篩選，幫你快速找到需要的 skill name。</p>
+      </section>
+
+      <section class="controls" aria-label="Search controls">
+        <div>
+          <label for="searchInput">關鍵字（id / name / description / path）</label>
+          <input id="searchInput" type="search" placeholder="輸入 skill name 或描述..." />
+        </div>
+        <div>
+          <label for="langSelect">顯示語言</label>
+          <select id="langSelect">
+            <option value="en">English</option>
+            <option value="zh-Hant">繁體中文</option>
+          </select>
+        </div>
+        <div>
+          <label for="categorySelect">分類（依資料夾）</label>
+          <select id="categorySelect">
+            <option value="all">全部分類</option>
+          </select>
+        </div>
+        <div>
+          <label for="sortSelect">排序</label>
+          <select id="sortSelect">
+            <option value="name">Name A → Z</option>
+            <option value="id">ID A → Z</option>
+            <option value="category">Category</option>
+          </select>
+        </div>
+      </section>
+
+      <div class="stats" id="stats"></div>
+      <section class="grid" id="results"></section>
+      <div class="status" id="status"></div>
+    </main>
+
+    <script>
+      const dataUrl = "../skills_index.json";
+      const zhDataUrl = "../skills_index.zh-Hant.json";
+      const searchInput = document.getElementById("searchInput");
+      const langSelect = document.getElementById("langSelect");
+      const categorySelect = document.getElementById("categorySelect");
+      const sortSelect = document.getElementById("sortSelect");
+      const results = document.getElementById("results");
+      const stats = document.getElementById("stats");
+      const status = document.getElementById("status");
+
+      let skills = [];
+
+      const getCategory = (path) => {
+        const parts = String(path || "").split("/");
+        if (parts.length >= 3) {
+          return parts[1];
+        }
+        return "general";
+      };
+
+      const renderStats = (total, shown) => {
+        stats.innerHTML = `<strong>${shown}</strong> / ${total} skills` +
+          ` · 類別 <strong>${categorySelect.value === "all" ? "全部" : categorySelect.value}</strong>` +
+          ` · 排序 <strong>${sortSelect.value}</strong>` +
+          ` · 顯示 <strong>${langSelect.value}</strong>`;
+      };
+
+      const renderResults = () => {
+        const keyword = searchInput.value.trim().toLowerCase();
+        const category = categorySelect.value;
+        const sortMode = sortSelect.value;
+        const displayLang = langSelect.value;
+
+        let filtered = skills.filter((skill) => {
+          const target = `${skill.id} ${skill.name} ${skill.description} ${skill.name_zh || ""} ${skill.description_zh || ""} ${skill.path}`.toLowerCase();
+          const matchesKeyword = keyword === "" || target.includes(keyword);
+          const matchesCategory = category === "all" || getCategory(skill.path) === category;
+          return matchesKeyword && matchesCategory;
+        });
+
+        filtered = filtered.sort((a, b) => {
+          if (sortMode === "id") return a.id.localeCompare(b.id);
+          if (sortMode === "category") return getCategory(a.path).localeCompare(getCategory(b.path));
+          return a.name.localeCompare(b.name);
+        });
+
+        results.innerHTML = filtered
+          .map((skill) => {
+            const categoryLabel = getCategory(skill.path);
+            const displayName = displayLang === "zh-Hant" ? (skill.name_zh || skill.name) : skill.name;
+            const displayDesc = displayLang === "zh-Hant" ? (skill.description_zh || skill.description) : skill.description;
+            return `
+              <article class="card">
+                <div class="meta">
+                  <span class="pill">${categoryLabel}</span>
+                  <span class="pill alt">${skill.id}</span>
+                </div>
+                <h3>${displayName}</h3>
+                <p class="desc">${displayDesc}</p>
+                <div class="actions">
+                  <button data-copy="${displayName}" data-default="複製名稱">複製名稱</button>
+                  <button data-copy="${skill.path}" data-default="複製路徑">複製路徑</button>
+                  <a href="../${skill.path}" title="Open skill path">開啟 ↗</a>
+                  <span class="path">${skill.path}</span>
+                </div>
+              </article>
+            `;
+          })
+          .join("");
+
+        results.querySelectorAll("button[data-copy]").forEach((button) => {
+          button.addEventListener("click", async () => {
+            const text = button.getAttribute("data-copy");
+            try {
+              await navigator.clipboard.writeText(text);
+              button.textContent = "已複製";
+              setTimeout(() => {
+                button.textContent = button.getAttribute("data-default") || "複製";
+              }, 1200);
+            } catch (err) {
+              console.error(err);
+            }
+          });
+        });
+
+        renderStats(skills.length, filtered.length);
+      };
+
+      const populateCategories = () => {
+        const categories = new Set(skills.map((skill) => getCategory(skill.path)));
+        [...categories].sort().forEach((category) => {
+          const option = document.createElement("option");
+          option.value = category;
+          option.textContent = category;
+          categorySelect.appendChild(option);
+        });
+      };
+
+      const loadData = async () => {
+        status.textContent = "Loading skills_index.json...";
+        try {
+          const res = await fetch(dataUrl, { cache: "no-store" });
+          if (!res.ok) {
+            throw new Error(`HTTP ${res.status}`);
+          }
+          skills = await res.json();
+          try {
+            const zhRes = await fetch(zhDataUrl, { cache: "no-store" });
+            if (zhRes.ok) {
+              const zhSkills = await zhRes.json();
+              const zhMap = new Map(zhSkills.map((item) => [item.id, item]));
+              skills = skills.map((skill) => {
+                const zhItem = zhMap.get(skill.id);
+                if (!zhItem) return skill;
+                return {
+                  ...skill,
+                  name_zh: zhItem.name,
+                  description_zh: zhItem.description,
+                };
+              });
+            } else {
+              langSelect.value = "en";
+              langSelect.disabled = true;
+            }
+          } catch (err) {
+            console.warn("zh-Hant file not available", err);
+            langSelect.value = "en";
+            langSelect.disabled = true;
+          }
+          populateCategories();
+          renderResults();
+          status.textContent = "";
+        } catch (err) {
+          console.error(err);
+          status.classList.add("error");
+          status.innerHTML =
+            "無法載入 skills_index.json。請用本機伺服器開啟此頁面，例如：<code>python -m http.server</code>。";
+        }
+      };
+
+      searchInput.addEventListener("input", renderResults);
+      categorySelect.addEventListener("change", renderResults);
+      sortSelect.addEventListener("change", renderResults);
+      langSelect.addEventListener("change", renderResults);
+
+      loadData();
+    </script>
+  </body>
+</html>
