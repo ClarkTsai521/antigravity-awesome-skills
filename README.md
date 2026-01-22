@@ -61,7 +61,8 @@ That's it! Your AI assistant now has 233 specialized skills. 🎉
 
 - 💡 **[Real-World Examples](docs/EXAMPLES.md)** - See skills in action
 - ❓ **[FAQ](FAQ.md)** - Common questions answered
-- **Skills Index Browser (Local)** - Run `scripts/start-skill-browser.bat` to launch the searchable UI at `http://localhost:8000/docs/skills-search.html` (click the ⓘ icon for usage paths)
+- **Skills Index Browser (Local)** - Run `scripts/start-skill-browser.bat` to launch the searchable UI at `http://localhost:8000/docs/skills-search.html` (click the ⓘ icon for usage paths and global install notes)
+- **Global Install (Codex CLI)** - You can place skills in `%USERPROFILE%\.codex\skills\` to make them available to all projects
 
 ---
 
